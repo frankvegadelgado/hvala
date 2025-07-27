@@ -2,7 +2,7 @@ from pathlib import Path
 
 import setuptools
 
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 
 NAME = "hvala"
 
@@ -19,7 +19,7 @@ setuptools.setup(
     url="https://github.com/frankvegadelgado/hvala",
     project_urls={
         "Source Code": "https://github.com/frankvegadelgado/hvala",
-        "Documentation Research": "https://www.preprints.org/manuscript/202506.0875",
+        "Documentation Research": "https://dev.to/frank_vega_987689489099bf/the-hvala-algorithm-5395",
     },
     author="Frank Vega",
     author_email="vega.frank@gmail.com",

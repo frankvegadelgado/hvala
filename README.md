@@ -2,7 +2,7 @@
 
 ![In honor of those who supported me in my final days in Serbia.](docs/serbia.jpg)
 
-This work builds upon [Disproving the Unique Games Conjecture](https://www.preprints.org/manuscript/202506.0875).
+This work builds upon [The Hvala Algorithm](https://dev.to/frank_vega_987689489099bf/the-hvala-algorithm-5395).
 
 ---
 
