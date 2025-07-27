@@ -119,8 +119,14 @@ def find_vertex_cover(graph):
         # Apply the reduction-based algorithm to find vertex cover for this component
         vertex_solution = covering_via_reduction_max_degree_1(component_subgraph)
         
+        # Compute a 2-approximation of the minimum weighted vertex cover in linear time using NetworkX
+        approximate_solution = nx.approximation.min_weighted_vertex_cover(component_subgraph)
+
+        # Select the smaller solution between the greedy solution and the approximate one for efficiency
+        solution = vertex_solution if len(vertex_solution) <= len(approximate_solution) else approximate_solution
+
         # Add the component's vertex cover to the overall solution
-        approximate_vertex_cover.update(vertex_solution)                  
+        approximate_vertex_cover.update(solution)                  
     
     return approximate_vertex_cover
 
