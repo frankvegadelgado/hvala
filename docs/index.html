@@ -1,0 +1,499 @@
+<html>
+  <head>
+    <title>HVALA</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      code:not(.language-diff) {
+        background-color: white;
+        color: black;
+        display: inline-block;
+      }
+      code.language-diff {
+        background-color: while;
+        color: green;
+      }
+    </style>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js"],
+        "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+        TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+        messageStyle: "none"
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Hvala: Approximate Vertex Cover Solver</h1>
+    <p>
+      <img
+        src="serbia.jpg"
+        alt="In honor of those who supported me in my final days in Serbia."
+      />
+    </p>
+    <p>
+      This work builds upon
+      <a href="https://www.preprints.org/manuscript/202506.0875"
+        >Disproving the Unique Games Conjecture</a
+      >.
+    </p>
+    <hr />
+    <h1>The Minimum Vertex Cover Problem</h1>
+    <p>
+      The <strong>Minimum Vertex Cover (MVC)</strong> problem is a classic
+      optimization problem in computer science and graph theory. It involves
+      finding the smallest set of vertices in a graph that
+      <strong>covers</strong> all edges, meaning at least one endpoint of every
+      edge is included in the set.
+    </p>
+    <h2>Formal Definition</h2>
+    <p>
+      Given an undirected graph $G = (V, E)$, a <strong>vertex cover</strong> is
+      a subset $V' \subseteq V$ such that for every edge $(u, v) \in E$, at
+      least one of $u$ or $v$ belongs to $V'$. The MVC problem seeks the vertex
+      cover with the smallest cardinality.
+    </p>
+    <h2>Importance and Applications</h2>
+    <ul>
+      <li>
+        <strong>Theoretical Significance:</strong> MVC is a well-known NP-hard
+        problem, central to complexity theory.
+      </li>
+      <li>
+        <strong>Practical Applications:</strong>
+        <ul>
+          <li>
+            <strong>Network Security:</strong> Identifying critical nodes to
+            disrupt connections.
+          </li>
+          <li>
+            <strong>Bioinformatics:</strong> Analyzing gene regulatory networks.
+          </li>
+          <li>
+            <strong>Wireless Sensor Networks:</strong> Optimizing sensor
+            coverage.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2>Related Problems</h2>
+    <ul>
+      <li>
+        <strong>Maximum Independent Set:</strong> The complement of a vertex
+        cover.
+      </li>
+      <li><strong>Set Cover Problem:</strong> A generalization of MVC.</li>
+    </ul>
+    <hr />
+    <h2>Problem Statement</h2>
+    <p>Input: A Boolean Adjacency Matrix $M$.</p>
+    <p>Answer: Find a Minimum Vertex Cover.</p>
+    <h3>Example Instance: 5 x 5 matrix</h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>c1</th>
+          <th>c2</th>
+          <th>c3</th>
+          <th>c4</th>
+          <th>c5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>r1</strong></td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td><strong>r2</strong></td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>r3</strong></td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td><strong>r4</strong></td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>r5</strong></td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      The input for undirected graph is typically provided in
+      <a href="http://dimacs.rutgers.edu/Challenges">DIMACS</a> format. In this
+      way, the previous adjacency matrix is represented in a text file using the
+      following string representation:
+    </p>
+    <pre><code>p edge 5 4
+e 1 3
+e 1 5
+e 2 4
+e 3 5
+</code></pre>
+    <p>
+      This represents a 5x5 matrix in DIMACS format such that each edge $(v,w)$
+      appears exactly once in the input file and is not repeated as $(w,v)$. In
+      this format, every edge appears in the form of
+    </p>
+    <pre><code>e W V
+</code></pre>
+    <p>
+      where the fields W and V specify the endpoints of the edge while the
+      lower-case character <code>e</code> signifies that this is an edge
+      descriptor line.
+    </p>
+    <p><em>Example Solution:</em></p>
+    <p>
+      Vertex Cover Found <code>1, 2, 3</code>: Nodes <code>1</code>,
+      <code>2</code>, and <code>3</code> constitute an optimal solution.
+    </p>
+    <hr />
+    <h1>Vertex Cover via Degree Reduction Algorithm</h1>
+    <h2>Algorithm Overview</h2>
+    <p>
+      The <strong>Vertex Cover via Degree Reduction Algorithm</strong> is a
+      polynomial-time approximation algorithm that finds near-optimal vertex
+      covers by transforming the input graph into a simpler structure where
+      optimal solutions can be computed efficiently.
+    </p>
+    <h3>Core Approach</h3>
+    <ol>
+      <li>
+        <strong>Preprocessing</strong>: Remove self-loops and isolated vertices
+        from the input graph
+      </li>
+      <li>
+        <strong>Component Decomposition</strong>: Process each connected
+        component independently
+      </li>
+      <li>
+        <strong>Degree Reduction</strong>: Transform each component using a
+        novel reduction technique:
+        <ul>
+          <li>
+            Replace each vertex <code>u</code> of degree <code>k</code> with
+            <code>k</code> auxiliary vertices
+          </li>
+          <li>
+            Connect each auxiliary vertex to one of <code>u</code>'s original
+            neighbors
+          </li>
+          <li>Assign weight <code>1/k</code> to each auxiliary vertex</li>
+          <li>
+            Resulting graph has maximum degree ≤ 1 (paths and cycles only)
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Optimal Solving</strong>: Apply two different greedy algorithms
+        on the reduced graph:
+        <ul>
+          <li>Minimum weighted dominating set algorithm</li>
+          <li>Minimum weighted vertex cover algorithm</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Solution Selection</strong>: Choose the better of the two
+        solutions
+      </li>
+      <li>
+        <strong>Extraction</strong>: Map auxiliary vertices back to original
+        vertices
+      </li>
+    </ol>
+    <h3>Key Innovation</h3>
+    <p>
+      The algorithm's strength lies in its
+      <strong>dual-approach strategy</strong>: by solving both dominating set
+      and vertex cover problems optimally on the degree-1 reduced graph and
+      selecting the better solution, it consistently outperforms single-approach
+      algorithms.
+    </p>
+    <h2>Performance Guarantees</h2>
+    <h3>Approximation Ratio</h3>
+    <ul>
+      <li>
+        <strong>Theoretical Bound</strong>: <code>&lt; 2</code> (strict
+        inequality)
+      </li>
+      <li>
+        <strong>Practical Performance</strong>: Often significantly better than
+        2, approaching optimal for many graph classes
+      </li>
+      <li>
+        <strong>Comparison</strong>: Outperforms classical algorithms like the
+        standard edge-based 2-approximation
+      </li>
+    </ul>
+    <h3>Time Complexity</h3>
+    <ul>
+      <li>
+        <strong>Overall Runtime</strong>: <code>O(|V| + |E|)</code> - linear
+        time
+      </li>
+      <li>
+        <strong>Space Complexity</strong>: <code>O(|V| + |E|)</code> for storing
+        the reduced graph
+      </li>
+    </ul>
+    <h4>Complexity Breakdown</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Phase</th>
+          <th>Time Complexity</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Preprocessing</td>
+          <td><code>O(|V| + |E|)</code></td>
+          <td>Remove self-loops and isolated vertices</td>
+        </tr>
+        <tr>
+          <td>Component Finding</td>
+          <td><code>O(|V| + |E|)</code></td>
+          <td>DFS/BFS for connected components</td>
+        </tr>
+        <tr>
+          <td>Graph Reduction</td>
+          <td><code>O(|E|)</code></td>
+          <td>Create auxiliary vertices and edges</td>
+        </tr>
+        <tr>
+          <td>Optimal Solving</td>
+          <td><code>O(|V| + |E|)</code></td>
+          <td>Greedy algorithms on degree-1 graphs</td>
+        </tr>
+        <tr>
+          <td>Solution Extraction</td>
+          <td><code>O(|V|)</code></td>
+          <td>Map back to original vertices</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Advantages</h2>
+    <p>
+      ✅ <strong>Superior Approximation</strong>: Achieves approximation ratio
+      &lt; 2 (better than classical algorithms)
+    </p>
+    <p>
+      ✅ <strong>Optimal Time Complexity</strong>: Linear time
+      <code>O(|V| + |E|)</code> - matches the best possible for graph problems
+    </p>
+    <p>
+      ✅ <strong>Practical Efficiency</strong>: Often produces near-optimal
+      solutions in real-world instances
+    </p>
+    <p>
+      ✅ <strong>Theoretical Rigor</strong>: Formal proofs guarantee correctness
+      and performance bounds
+    </p>
+    <p>
+      ✅ <strong>Robust Design</strong>: Handles all graph types including
+      disconnected graphs and edge cases
+    </p>
+    <h2>Use Cases</h2>
+    <p>The algorithm is particularly effective for:</p>
+    <ul>
+      <li>
+        <strong>Large sparse graphs</strong> where linear time complexity is
+        crucial
+      </li>
+      <li>
+        <strong>Graphs with moderate vertex degrees</strong> where the reduction
+        preserves structure well
+      </li>
+      <li>
+        <strong>Applications requiring proven approximation guarantees</strong>
+        with practical efficiency
+      </li>
+      <li>
+        <strong>Real-time systems</strong> where predictable linear performance
+        is essential
+      </li>
+    </ul>
+    <h2>Implementation Notes</h2>
+    <p>The algorithm requires:</p>
+    <ul>
+      <li>NetworkX for graph operations</li>
+      <li>
+        Custom greedy solvers for minimum weighted dominating set and vertex
+        cover on degree-1 graphs
+      </li>
+      <li>
+        Efficient data structures for mapping between original and auxiliary
+        vertices
+      </li>
+    </ul>
+    <p>
+      The dual-solution approach (trying both dominating set and vertex cover)
+      is essential for achieving the &lt; 2 approximation ratio and should not
+      be omitted in implementations.
+    </p>
+    <hr />
+    <h1>Compile and Environment</h1>
+    <h2>Prerequisites</h2>
+    <ul>
+      <li>Python ≥ 3.12</li>
+    </ul>
+    <h2>Installation</h2>
+    <pre><code class="language-bash">pip install hvala
+</code></pre>
+    <h2>Execution</h2>
+    <ol>
+      <li>
+        <p>Clone the repository:</p>
+        <pre><code class="language-bash">git clone https://github.com/frankvegadelgado/hvala.git
+cd hvala
+</code></pre>
+      </li>
+      <li>
+        <p>Run the script:</p>
+        <pre><code class="language-bash">idemo -i ./benchmarks/testMatrix1
+</code></pre>
+        <p>
+          utilizing the <code>idemo</code> command provided by Hvala's Library
+          to execute the Boolean adjacency matrix
+          <code>hvala\benchmarks\testMatrix1</code>. The file
+          <code>testMatrix1</code> represents the example described herein. We
+          also support <code>.xz</code>, <code>.lzma</code>, <code>.bz2</code>,
+          and <code>.bzip2</code> compressed text files.
+        </p>
+        <p><strong>Example Output:</strong></p>
+        <pre><code>testMatrix1: Vertex Cover Found 1, 2, 3
+</code></pre>
+        <p>This indicates nodes <code>1, 2, 3</code> form a vertex cover.</p>
+      </li>
+    </ol>
+    <hr />
+    <h2>Vertex Cover Size</h2>
+    <p>Use the <code>-c</code> flag to count the nodes in the vertex cover:</p>
+    <pre><code class="language-bash">idemo -i ./benchmarks/testMatrix2 -c
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code>testMatrix2: Vertex Cover Size 5
+</code></pre>
+    <hr />
+    <h1>Command Options</h1>
+    <p>Display help and options:</p>
+    <pre><code class="language-bash">idemo -h
+</code></pre>
+    <p><strong>Output:</strong></p>
+    <pre><code class="language-bash">usage: idemo [-h] -i INPUTFILE [-a] [-b] [-c] [-v] [-l] [--version]
+
+Compute the Approximate Vertex Cover for undirected graph encoded in DIMACS format.
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUTFILE, --inputFile INPUTFILE
+                        input file path
+  -a, --approximation   enable comparison with a polynomial-time approximation approach within a factor of at most 2
+  -b, --bruteForce      enable comparison with the exponential-time brute-force approach
+  -c, --count           calculate the size of the vertex cover
+  -v, --verbose         anable verbose output
+  -l, --log             enable file logging
+  --version             show program's version number and exit
+</code></pre>
+    <hr />
+    <h1>Batch Execution</h1>
+    <p>
+      Batch execution allows you to solve multiple graphs within a directory
+      consecutively.
+    </p>
+    <p>
+      To view available command-line options for the
+      <code>batch_idemo</code> command, use the following in your terminal or
+      command prompt:
+    </p>
+    <pre><code class="language-bash">batch_idemo -h
+</code></pre>
+    <p>This will display the following help information:</p>
+    <pre><code class="language-bash">usage: batch_idemo [-h] -i INPUTDIRECTORY [-a] [-b] [-c] [-v] [-l] [--version]
+
+Compute the Approximate Vertex Cover for all undirected graphs encoded in DIMACS format and stored in a directory.
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUTDIRECTORY, --inputDirectory INPUTDIRECTORY
+                        Input directory path
+  -a, --approximation   enable comparison with a polynomial-time approximation approach within a factor of at most 2
+  -b, --bruteForce      enable comparison with the exponential-time brute-force approach
+  -c, --count           calculate the size of the vertex cover
+  -v, --verbose         anable verbose output
+  -l, --log             enable file logging
+  --version             show program's version number and exit
+</code></pre>
+    <hr />
+    <h1>Testing Application</h1>
+    <p>
+      A command-line utility named <code>test_idemo</code> is provided for
+      evaluating the Algorithm using randomly generated, large sparse matrices.
+      It supports the following options:
+    </p>
+    <pre><code class="language-bash">usage: test_idemo [-h] -d DIMENSION [-n NUM_TESTS] [-s SPARSITY] [-a] [-b] [-c] [-w] [-v] [-l] [--version]
+
+The Hvala Testing Application using randomly generated, large sparse matrices.
+
+options:
+  -h, --help            show this help message and exit
+  -d DIMENSION, --dimension DIMENSION
+                        an integer specifying the dimensions of the square matrices
+  -n NUM_TESTS, --num_tests NUM_TESTS
+                        an integer specifying the number of tests to run
+  -s SPARSITY, --sparsity SPARSITY
+                        sparsity of the matrices (0.0 for dense, close to 1.0 for very sparse)
+  -a, --approximation   enable comparison with a polynomial-time approximation approach within a factor of at most 2
+  -b, --bruteForce      enable comparison with the exponential-time brute-force approach
+  -c, --count           calculate the size of the vertex cover
+  -w, --write           write the generated random matrix to a file in the current directory
+  -v, --verbose         anable verbose output
+  -l, --log             enable file logging
+  --version             show program's version number and exit
+</code></pre>
+    <hr />
+    <h1>Code</h1>
+    <ul>
+      <li>Python implementation by <strong>Frank Vega</strong>.</li>
+    </ul>
+    <hr />
+    <h1>License</h1>
+    <ul>
+      <li>MIT License.</li>
+    </ul>
+  </body>
+</html>
