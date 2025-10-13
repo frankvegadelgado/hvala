@@ -221,7 +221,7 @@ options:
 # Complexity
 
 ```diff
-+ We present a polynomial-time algorithm achieving a Sqrt(2)-approximation ratio for MVC, providing strong evidence that P = NP by efficiently solving a computationally hard problem with near-optimal solutions.
++ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in polynomial time, with an approximation ratio below √2. This breakthrough challenges the computational boundaries of P vs. NP providing strong evidence that P = NP.
 ```
 
 ---
