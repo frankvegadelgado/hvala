@@ -1,6 +1,6 @@
 import networkx as nx
 
-def min_weighted_dominating_set_max_degree_1(G: nx.Graph, weight: str = 'weight'):
+def min_weighted_dominating_set_max_degree_1(G, weight = 'weight'):
     """
     Find the minimum weighted dominating set for a graph with maximum degree 1.
     
@@ -59,7 +59,7 @@ def min_weighted_dominating_set_max_degree_1(G: nx.Graph, weight: str = 'weight'
     
     return dominating_set
 
-def min_weighted_vertex_cover_max_degree_1(G: nx.Graph, weight: str = 'weight'):
+def min_weighted_vertex_cover_max_degree_1(G, weight = 'weight'):
     """
     Find the minimum weighted vertex cover for a graph with maximum degree 1.
    
