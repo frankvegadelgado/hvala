@@ -9,15 +9,22 @@ from . import greedy
 
 def find_vertex_cover(graph):
     """
-    Improved approximate vertex cover computation.
-    Computes multiple heuristic solutions and returns the smallest one.
-    Achieves approximation ratios close to 1 in practice on many graphs.
+    Compute the approximate vertex cover set for an undirected graph.
+    
+    A vertex cover is a set of vertices such that every edge in the graph is incident 
+    to at least one vertex in the set. This function finds an approximate solution
+    using a polynomial-time reduction approach.
     
     Args:
         graph (nx.Graph): Input undirected graph.
     
     Returns:
-        set: Approximate vertex cover set.
+       set: A set of vertex indices representing the approximate vertex cover set.
+             Returns an empty set if the graph is empty or has no edges.
+             
+    Raises:
+        ValueError: If input is not a NetworkX Graph object.
+        RuntimeError: If the polynomial-time reduction fails (max degree > 1 after transformation).
     """
     def covering_via_reduction_max_degree_1(graph):
         """
