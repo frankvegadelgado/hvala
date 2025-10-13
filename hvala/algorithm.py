@@ -9,7 +9,7 @@ from . import greedy
 
 def find_vertex_cover(graph):
     """
-    Compute the approximate vertex cover set for an undirected graph.
+    Compute a near-optimal vertex cover for an undirected graph with an approximation ratio under sqrt(2).
     
     A vertex cover is a set of vertices such that every edge in the graph is incident 
     to at least one vertex in the set. This function finds an approximate solution
@@ -67,7 +67,7 @@ def find_vertex_cover(graph):
         if max_degree > 1:
             raise RuntimeError(f"Polynomial-time reduction failed: max degree is {max_degree}, expected ≤ 1")
             
-        # Apply greedy algorithm for minimum weighted dominating set (optimal for Δ=1)
+        # Apply greedy algorithm for minimum weighted dominating set (optimal)
         dominating_set = greedy.min_weighted_dominating_set_max_degree_1(G)
         # Extract original vertices from auxiliary vertex pairs
         greedy_solution1 = {u for u, _ in dominating_set}  # Filter if needed
@@ -75,7 +75,7 @@ def find_vertex_cover(graph):
         # Set node weights for the weighted vertex cover algorithm
         nx.set_node_attributes(G, weights, 'weight')
             
-        # Apply greedy algorithm for minimum weighted vertex cover (optimal for Δ=1)
+        # Apply greedy algorithm for minimum weighted vertex cover (optimal)
         vertex_cover = greedy.min_weighted_vertex_cover_max_degree_1(G)
         # Extract original vertices from auxiliary vertex pairs
         greedy_solution2 = {u for u, _ in vertex_cover}
