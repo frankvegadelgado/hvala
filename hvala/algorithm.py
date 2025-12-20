@@ -188,12 +188,19 @@ def find_vertex_cover_brute_force(graph):
     if graph.number_of_nodes() == 0 or graph.number_of_edges() == 0:
         return None
 
-    n_vertices = len(graph.nodes())
+    working_graph = graph.copy()
+    working_graph.remove_edges_from(list(nx.selfloop_edges(working_graph)))
+    working_graph.remove_nodes_from(list(nx.isolates(working_graph)))
+    
+    if working_graph.number_of_nodes() == 0:
+        return set()
+
+    n_vertices = len(working_graph.nodes())
 
     for k in range(1, n_vertices + 1): # Iterate through all possible sizes of the cover
-        for candidate in itertools.combinations(graph.nodes(), k):
+        for candidate in itertools.combinations(working_graph.nodes(), k):
             cover_candidate = set(candidate)
-            if utils.is_vertex_cover(graph, cover_candidate):
+            if utils.is_vertex_cover(working_graph, cover_candidate):
                 return cover_candidate
                 
     return None
