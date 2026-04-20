@@ -65,7 +65,7 @@ where the fields W and V specify the endpoints of the edge while the lower-case 
 
 _Example Solution:_
 
-Vertex Cover Found `1, 2, 3`: Nodes `1`, `2`, and `3` constitute an optimal solution.
+Vertex Cover Found `1, 3, 4`: Nodes `1`, `3`, and `4` constitute an optimal solution.
 
 ---
 
@@ -101,10 +101,10 @@ pip install hvala
    **Example Output:**
 
    ```
-   testMatrix1: Vertex Cover Found 1, 2, 3
+   testMatrix1: Vertex Cover Found 1, 3, 4
    ```
 
-   This indicates nodes `1, 2, 3` form a vertex cover.
+   This indicates nodes `1, 3, 4` form a vertex cover.
 
 ---
 
@@ -221,7 +221,7 @@ options:
 # Complexity
 
 ```diff
-+ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in polynomial time, with an approximation ratio below √2. This breakthrough challenges the computational boundaries of P vs. NP providing strong evidence that P = NP.
++ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in linear time.
 ```
 
 ---
