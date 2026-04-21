@@ -16,8 +16,6 @@ def maximal_matching_vertex_cover(G):
     cover = set()
     min_maximal_matching = nx.approximation.min_maximal_matching(G)
     for u, v in min_maximal_matching:
-        if u in cover or v in cover:
-            continue
         cover.add(u)
         cover.add(v)
     return cover

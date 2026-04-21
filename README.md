@@ -221,7 +221,7 @@ options:
 # Complexity
 
 ```diff
-+ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in linear time.
++ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in linear time. Experimental evidence suggests that Hvala is a strong candidate for breaking the √2-ε barrier.
 ```
 
 ---
