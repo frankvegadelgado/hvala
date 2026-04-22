@@ -174,14 +174,13 @@ def find_vertex_cover(graph):
     c2 = bucket_degree_greedy(adj)  # max-degree
     c3 = covering_via_reduction_max_degree_1(G) # reduction-based solver
 
-    # 4: prune on the union (strongest starting cover)
-    c4 = prune_redundant_vertices(adj, c1 | c2 | c3)
     
     # Final pruning on every candidate (still linear)
     c1 = prune_redundant_vertices(adj, c1)
     c2 = prune_redundant_vertices(adj, c2)
     c3 = prune_redundant_vertices(adj, c3)
-    c4 = prune_redundant_vertices(adj, c4)
+    # 4: prune on the union (strongest starting cover)
+    c4 = prune_redundant_vertices(adj, c1 | c2 | c3)
 
     return min([c1, c2, c3, c4], key=len)
 
