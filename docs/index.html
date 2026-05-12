@@ -31,206 +31,145 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"
     ></script>
   </head>
-  <body>
-    <h1>Hvala: Approximate Vertex Cover Solver</h1>
-    <p>
-      <img
-        src="serbia.jpg"
-        alt="In honor of those who supported me in my final days in Serbia."
-      />
-    </p>
-    <p>
-      This work builds upon
-      <a
-        href="https://dev.to/frank_vega_987689489099bf/the-hvala-algorithm-5395"
-        >The Hvala Algorithm</a
-      >.
-    </p>
-    <hr />
-    <h1>The Minimum Vertex Cover Problem</h1>
-    <p>
-      The <strong>Minimum Vertex Cover (MVC)</strong> problem is a classic
-      optimization problem in computer science and graph theory. It involves
-      finding the smallest set of vertices in a graph that
-      <strong>covers</strong> all edges, meaning at least one endpoint of every
-      edge is included in the set.
-    </p>
-    <h2>Formal Definition</h2>
-    <p>
-      Given an undirected graph $G = (V, E)$, a <strong>vertex cover</strong> is
-      a subset $V' \subseteq V$ such that for every edge $(u, v) \in E$, at
-      least one of $u$ or $v$ belongs to $V'$. The MVC problem seeks the vertex
-      cover with the smallest cardinality.
-    </p>
-    <h2>Importance and Applications</h2>
-    <ul>
-      <li>
-        <strong>Theoretical Significance:</strong> MVC is a well-known NP-hard
-        problem, central to complexity theory.
-      </li>
-      <li>
-        <strong>Practical Applications:</strong>
-        <ul>
-          <li>
-            <strong>Network Security:</strong> Identifying critical nodes to
-            disrupt connections.
-          </li>
-          <li>
-            <strong>Bioinformatics:</strong> Analyzing gene regulatory networks.
-          </li>
-          <li>
-            <strong>Wireless Sensor Networks:</strong> Optimizing sensor
-            coverage.
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <h2>Related Problems</h2>
-    <ul>
-      <li>
-        <strong>Maximum Independent Set:</strong> The complement of a vertex
-        cover.
-      </li>
-      <li><strong>Set Cover Problem:</strong> A generalization of MVC.</li>
-    </ul>
-    <hr />
-    <h2>Problem Statement</h2>
-    <p>Input: A Boolean Adjacency Matrix $M$.</p>
-    <p>Answer: Find a Minimum Vertex Cover.</p>
-    <h3>Example Instance: 5 x 5 matrix</h3>
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>c1</th>
-          <th>c2</th>
-          <th>c3</th>
-          <th>c4</th>
-          <th>c5</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>r1</strong></td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td><strong>r2</strong></td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td><strong>r3</strong></td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td><strong>r4</strong></td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td><strong>r5</strong></td>
-          <td>1</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      The input for undirected graph is typically provided in
-      <a href="http://dimacs.rutgers.edu/Challenges">DIMACS</a> format. In this
-      way, the previous adjacency matrix is represented in a text file using the
-      following string representation:
-    </p>
-    <pre><code>p edge 5 4
+<body>
+<h1>Hvala: Approximate Vertex Cover Solver</h1>
+<p><img src="serbia.jpg" alt="In honor of those who supported me in my final days in Serbia."></p>
+<hr>
+<h1>The Minimum Vertex Cover Problem</h1>
+<p>The <strong>Minimum Vertex Cover (MVC)</strong> problem is a classic optimization problem in computer science and graph theory. It involves finding the smallest set of vertices in a graph that <strong>covers</strong> all edges, meaning at least one endpoint of every edge is included in the set.</p>
+<h2>Formal Definition</h2>
+<p>Given an undirected graph $G = (V, E)$, a <strong>vertex cover</strong> is a subset $V' \subseteq V$ such that for every edge $(u, v) \in E$, at least one of $u$ or $v$ belongs to $V'$. The MVC problem seeks the vertex cover with the smallest cardinality.</p>
+<h2>Importance and Applications</h2>
+<ul>
+<li><strong>Theoretical Significance:</strong> MVC is a well-known NP-hard problem, central to complexity theory.</li>
+<li><strong>Practical Applications:</strong>
+<ul>
+<li><strong>Network Security:</strong> Identifying critical nodes to disrupt connections.</li>
+<li><strong>Bioinformatics:</strong> Analyzing gene regulatory networks.</li>
+<li><strong>Wireless Sensor Networks:</strong> Optimizing sensor coverage.</li>
+</ul>
+</li>
+</ul>
+<h2>Related Problems</h2>
+<ul>
+<li><strong>Maximum Independent Set:</strong> The complement of a vertex cover.</li>
+<li><strong>Set Cover Problem:</strong> A generalization of MVC.</li>
+</ul>
+<hr>
+<h2>Problem Statement</h2>
+<p>Input: A Boolean Adjacency Matrix $M$.</p>
+<p>Answer: Find an <strong>approximate vertex cover</strong> with size at most $2 \cdot \mathrm{OPT}(G)$ unconditionally (and strictly less than $2 \cdot \mathrm{OPT}(G)$ on every finite simple graph $G$, conditional on the companion theorem of the Hallelujah heuristic; see the manuscript for the full guarantees). We use the consistent name <strong>Approximate Vertex Cover Solver</strong> throughout this repository --- the project's title --- and reserve the phrase <em>minimum vertex cover</em> exclusively for the optimal cover ($\mathrm{OPT}(G)$), against which Hvala's output is compared. Hvala does not solve the (NP-hard) Minimum Vertex Cover problem exactly; it approximates it.</p>
+<h3>Example Instance: 5 x 5 matrix</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>c1</th>
+<th>c2</th>
+<th>c3</th>
+<th>c4</th>
+<th>c5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>r1</strong></td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>r2</strong></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>r3</strong></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>r4</strong></td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>r5</strong></td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>The input for undirected graph is typically provided in <a href="http://dimacs.rutgers.edu/Challenges">DIMACS</a> format. In this way, the previous adjacency matrix is represented in a text file using the following string representation:</p>
+<pre><code>p edge 5 4
 e 1 3
 e 1 5
 e 2 4
 e 3 5
 </code></pre>
-    <p>
-      This represents a 5x5 matrix in DIMACS format such that each edge $(v,w)$
-      appears exactly once in the input file and is not repeated as $(w,v)$. In
-      this format, every edge appears in the form of
-    </p>
-    <pre><code>e W V
+<p>This represents a 5x5 matrix in DIMACS format such that each edge $(v,w)$ appears exactly once in the input file and is not repeated as $(w,v)$. In this format, every edge appears in the form of</p>
+<pre><code>e W V
 </code></pre>
-    <p>
-      where the fields W and V specify the endpoints of the edge while the
-      lower-case character <code>e</code> signifies that this is an edge
-      descriptor line.
-    </p>
-    <p><em>Example Solution:</em></p>
-    <p>
-      Vertex Cover Found <code>1, 3, 4</code>: Nodes <code>1</code>,
-      <code>3</code>, and <code>4</code> constitute an optimal solution.
-    </p>
-    <hr />
-    <h1>Compile and Environment</h1>
-    <h2>Prerequisites</h2>
-    <ul>
-      <li>Python ≥ 3.12</li>
-    </ul>
-    <h2>Installation</h2>
-    <pre><code class="language-bash">pip install hvala
+<p>where the fields W and V specify the endpoints of the edge while the lower-case character <code>e</code> signifies that this is an edge descriptor line.</p>
+<p><em>Example Solution:</em></p>
+<p>Vertex Cover Found <code>1, 3, 4</code>: Nodes <code>1</code>, <code>3</code>, and <code>4</code> constitute an optimal solution.</p>
+<hr>
+<h1>Compile and Environment</h1>
+<h2>Prerequisites</h2>
+<ul>
+<li>Python ≥ 3.12</li>
+</ul>
+<h2>Installation</h2>
+<pre><code class="language-bash">pip install hvala
 </code></pre>
-    <h2>Execution</h2>
-    <ol>
-      <li>
-        <p>Clone the repository:</p>
-        <pre><code class="language-bash">git clone https://github.com/frankvegadelgado/hvala.git
+<h2>Execution</h2>
+<ol>
+<li>
+<p>Clone the repository:</p>
+<pre><code class="language-bash">git clone https://github.com/frankvegadelgado/hvala.git
 cd hvala
 </code></pre>
-      </li>
-      <li>
-        <p>Run the script:</p>
-        <pre><code class="language-bash">idemo -i ./benchmarks/testMatrix1
+</li>
+<li>
+<p>Run the script:</p>
+<pre><code class="language-bash">idemo -i ./benchmarks/testMatrix1
 </code></pre>
-        <p>
-          utilizing the <code>idemo</code> command provided by Hvala's Library
-          to execute the Boolean adjacency matrix
-          <code>hvala\benchmarks\testMatrix1</code>. The file
-          <code>testMatrix1</code> represents the example described herein. We
-          also support <code>.xz</code>, <code>.lzma</code>, <code>.bz2</code>,
-          and <code>.bzip2</code> compressed text files.
-        </p>
-        <p><strong>Example Output:</strong></p>
-        <pre><code>testMatrix1: Vertex Cover Found 1, 3, 4
+<p>utilizing the <code>idemo</code> command provided by Hvala's Library to execute the Boolean adjacency matrix <code>hvala\benchmarks\testMatrix1</code>. The file <code>testMatrix1</code> represents the example described herein. We also support <code>.xz</code>, <code>.lzma</code>, <code>.bz2</code>, and <code>.bzip2</code> compressed text files.</p>
+<p><strong>Example Output:</strong></p>
+<pre><code>testMatrix1: Vertex Cover Found 1, 3, 4
 </code></pre>
-        <p>This indicates nodes <code>1, 3, 4</code> form a vertex cover.</p>
-      </li>
-    </ol>
-    <hr />
-    <h2>Vertex Cover Size</h2>
-    <p>Use the <code>-c</code> flag to count the nodes in the vertex cover:</p>
-    <pre><code class="language-bash">idemo -i ./benchmarks/testMatrix2 -c
+<p>This indicates nodes <code>1, 3, 4</code> form a vertex cover.</p>
+</li>
+</ol>
+<hr>
+<h2>Vertex Cover Size</h2>
+<p>Use the <code>-c</code> flag to count the nodes in the vertex cover:</p>
+<pre><code class="language-bash">idemo -i ./benchmarks/testMatrix2 -c
 </code></pre>
-    <p><strong>Output:</strong></p>
-    <pre><code>testMatrix2: Vertex Cover Size 5
+<p><strong>Output:</strong></p>
+<pre><code>testMatrix2: Vertex Cover Size 5
 </code></pre>
-    <hr />
-    <h1>Command Options</h1>
-    <p>Display help and options:</p>
-    <pre><code class="language-bash">idemo -h
+<hr>
+<h1>Command Options</h1>
+<p>Display help and options:</p>
+<pre><code class="language-bash">idemo -h
 </code></pre>
-    <p><strong>Output:</strong></p>
-    <pre><code class="language-bash">usage: idemo [-h] -i INPUTFILE [-a] [-b] [-c] [-v] [-l] [--version]
+<p><strong>Output:</strong></p>
+<pre><code class="language-bash">usage: idemo [-h] -i INPUTFILE [-a] [-b] [-c] [-v] [-l] [--version]
 
 Compute the Approximate Vertex Cover for undirected graph encoded in DIMACS format.
 
@@ -245,21 +184,14 @@ options:
   -l, --log             enable file logging
   --version             show program's version number and exit
 </code></pre>
-    <hr />
-    <h1>Batch Execution</h1>
-    <p>
-      Batch execution allows you to solve multiple graphs within a directory
-      consecutively.
-    </p>
-    <p>
-      To view available command-line options for the
-      <code>batch_idemo</code> command, use the following in your terminal or
-      command prompt:
-    </p>
-    <pre><code class="language-bash">batch_idemo -h
+<hr>
+<h1>Batch Execution</h1>
+<p>Batch execution allows you to solve multiple graphs within a directory consecutively.</p>
+<p>To view available command-line options for the <code>batch_idemo</code> command, use the following in your terminal or command prompt:</p>
+<pre><code class="language-bash">batch_idemo -h
 </code></pre>
-    <p>This will display the following help information:</p>
-    <pre><code class="language-bash">usage: batch_idemo [-h] -i INPUTDIRECTORY [-a] [-b] [-c] [-v] [-l] [--version]
+<p>This will display the following help information:</p>
+<pre><code class="language-bash">usage: batch_idemo [-h] -i INPUTDIRECTORY [-a] [-b] [-c] [-v] [-l] [--version]
 
 Compute the Approximate Vertex Cover for all undirected graphs encoded in DIMACS format and stored in a directory.
 
@@ -274,14 +206,10 @@ options:
   -l, --log             enable file logging
   --version             show program's version number and exit
 </code></pre>
-    <hr />
-    <h1>Testing Application</h1>
-    <p>
-      A command-line utility named <code>test_idemo</code> is provided for
-      evaluating the Algorithm using randomly generated, large sparse matrices.
-      It supports the following options:
-    </p>
-    <pre><code class="language-bash">usage: test_idemo [-h] -d DIMENSION [-n NUM_TESTS] [-s SPARSITY] [-a] [-b] [-c] [-w] [-v] [-l] [--version]
+<hr>
+<h1>Testing Application</h1>
+<p>A command-line utility named <code>test_idemo</code> is provided for evaluating the Algorithm using randomly generated, large sparse matrices. It supports the following options:</p>
+<pre><code class="language-bash">usage: test_idemo [-h] -d DIMENSION [-n NUM_TESTS] [-s SPARSITY] [-a] [-b] [-c] [-w] [-v] [-l] [--version]
 
 The Hvala Testing Application using randomly generated, large sparse matrices.
 
@@ -301,19 +229,245 @@ options:
   -l, --log             enable file logging
   --version             show program's version number and exit
 </code></pre>
-    <hr />
-    <h1>Code</h1>
-    <ul>
-      <li>Python implementation by <strong>Frank Vega</strong>.</li>
-    </ul>
-    <hr />
-    <h1>Complexity</h1>
-    <pre><code class="language-diff">+ This algorithm finds near-optimal solutions for the hard Minimum Vertex Cover problem in linear time. Experimental evidence suggests that Hvala is a strong candidate for breaking the √2-ε barrier.
+<hr>
+<h1>Code</h1>
+<ul>
+<li>Python implementation by <strong>Frank Vega</strong>.</li>
+</ul>
+<hr>
+<h1>Complexity</h1>
+<pre><code class="language-diff">+ This algorithm is an Approximate Vertex Cover Solver for the (NP-hard) Minimum Vertex Cover problem: it finds near-optimal covers in linear time, with a rigorous worst-case approximation ratio of at most 2. Experimental evidence on a 252-instance benchmark suite (Sections 6.1–6.3 of the companion manuscript) shows that the observed ratio stays below √2 ≈ 1.414 on every instance, which motivates an open question --- not a proof --- about whether Hvala can be analysed for uniform sub-√2 performance on broad restricted graph classes.
 </code></pre>
-    <hr />
-    <h1>License</h1>
-    <ul>
-      <li>MIT License.</li>
-    </ul>
-  </body>
+<hr>
+<h1>Reproducibility Bundle</h1>
+<p>This repository ships as a full reproducibility bundle for the $252$-instance empirical study reported in the companion manuscript (Sections 6.1, 6.2, and 6.3). Everything below is sufficient to regenerate the per-family tables, the cumulative solve-time totals, and the per-instance run-times reported there.</p>
+<h2>Repository Layout</h2>
+<pre><code>hvala/
+├── hvala/                       # Python package (algorithm, parsers, CLI entry points)
+│   ├── algorithm.py             # Reference implementation of Hvala (Algorithm 1)
+│   ├── app.py                   # `idemo` single-instance CLI
+│   ├── batch.py                 # `batch_idemo` directory-scan CLI
+│   ├── parser.py                # DIMACS reader (handles .mis, .clq-compliment.txt, .clq, .xz/.bz2)
+│   └── utils.py                 # Helpers
+├── experiment/                  # Benchmark study artefacts
+│   ├── npbench/
+│   │   ├── benchmarks_npbench/             # FRB sub-experiment
+│   │   │   └── benchmarks_npbench.txt      # Raw log of the FRB run (41 instances; graph files excluded from git -- see Excluded Graph Files)
+│   │   └── clique_complement_npbench/      # DIMACS clique-complement sub-experiment
+│   │       └── clique_complement_npbench.txt  # Raw log of the DIMACS run (68 instances; graph files excluded from git)
+│   ├── network/                            # Real-world sub-experiment
+│   │   └── network.txt                     # Raw log of the real-world run (130 instances; graph files excluded from git)
+│   └── hardest/                            # Adversarial sub-experiment (small enough to ship in full)
+│       ├── crown-{25,50,100}.clq           # Crown graphs K_{k,k} minus a perfect matching
+│       ├── odd-cycle-{101,501,1001}.clq    # Odd cycles
+│       ├── petersen.clq                    # Petersen graph (girth 5)
+│       ├── heawood.clq                     # Heawood graph (bipartite, girth 6)
+│       ├── mobius-kantor.clq               # Möbius-Kantor graph (girth 6)
+│       ├── pappus.clq                      # Pappus graph (bipartite, girth 6)
+│       ├── desargues.clq                   # Desargues / GP(10,3) (bipartite, girth 6)
+│       ├── bip-3reg-{100,500}.clq          # Random (3,3)-biregular bipartite expanders
+│       └── hardest.txt                     # Raw log of the adversarial run
+├── benchmarks/                  # Small example matrices used by the unit tests
+├── docs/                        # Static docs (project logo etc.)
+├── setup.py                     # Package metadata; pins library versions
+├── pyproject.toml               # Tooling configuration
+└── README.md                    # This file
+</code></pre>
+<h2>Graph Sources</h2>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Source</th>
+<th>URL</th>
+<th>License / Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FRB (41 instances)</td>
+<td>NPBench § &quot;Vertex Cover instances&quot; (originally Ke Xu's BHOSLIB)</td>
+<td>https://roars.dev/npbench/</td>
+<td>Public benchmark; planted optima distributed with the data files.</td>
+</tr>
+<tr>
+<td>DIMACS clique-complement (68 instances)</td>
+<td>NPBench § &quot;Clique complement graphs&quot; (originally DIMACS Second Implementation Challenge)</td>
+<td>https://roars.dev/npbench/</td>
+<td>Public benchmark; OPT computed as $n-\omega(G)$ using maximum-clique values from https://www.researchgate.net/publication/336795252_Adapting_DIMACS_maximum_clique_benchmark_instances_for_the_maximum_weight_clique_problem (Mascia). $^{\dagger}$ For <code>C500.9</code> and <code>C1000.9</code>, $\omega$ is only known to be a best-known lower bound.</td>
+</tr>
+<tr>
+<td>Network Data Repository (130 instances)</td>
+<td>Cai et al., undirected simple graph collection</td>
+<td>https://networkrepository.com/</td>
+<td>Public network corpus; reference cover sizes (where available) from the Milagro experiment of the companion repo.</td>
+</tr>
+<tr>
+<td>Adversarial suite (13 instances, <code>experiment/hardest/</code>)</td>
+<td>Hand-crafted by this repository</td>
+<td>(in-repo, see <code>experiment/hardest/</code>)</td>
+<td>All OPT values are <strong>certified</strong>: König matching for the bipartite cases (crown family, Heawood, Pappus, Desargues, <code>bip-3reg-*</code>), the closed-form $(n+1)/2$ for the odd cycles, and brute-force enumeration for the small non-bipartite named graphs (Petersen, Möbius-Kantor).</td>
+</tr>
+</tbody>
+</table>
+<h2>Hardware and Software</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>Intel Core i7-1165G7 @ 2.80 GHz</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>32 GB</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11 (single-threaded execution)</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>3.12</td>
+</tr>
+<tr>
+<td>NetworkX</td>
+<td>3.4.2</td>
+</tr>
+<tr>
+<td>NumPy</td>
+<td>≥ 2.2.1 (pinned in <code>setup.py</code>)</td>
+</tr>
+<tr>
+<td>SciPy</td>
+<td>≥ 1.15.0 (pinned in <code>setup.py</code>)</td>
+</tr>
+<tr>
+<td>Hvala package</td>
+<td>v0.1.1 (this repository)</td>
+</tr>
+</tbody>
+</table>
+<p>Exact dependency floors are recorded in <code>setup.py</code> under <code>INSTALL_REQUIRES</code>. A <code>pip install hvala==0.1.1</code> reproduces the same package version used in the study. The pinned floors <code>numpy&gt;=2.2.1</code>, <code>scipy&gt;=1.15.0</code>, <code>networkx[default]&gt;=3.4.2</code>, together with <code>python_requires=&quot;&gt;=3.12&quot;</code>, serve as the package lockfile for the study.</p>
+<h2>Exact Benchmark Commands</h2>
+<p>The two NPBench sub-experiments were each launched with a single <code>batch_idemo</code> invocation from the <code>experiment/npbench/</code> directory. The <code>-c</code> flag turns on per-instance cover-size counting; the <code>-l</code> flag turns on file logging into a <code>.txt</code> log file named after the input directory.</p>
+<p>FRB sub-experiment (41 instances):</p>
+<pre><code class="language-powershell">PS D:\Work\NP\hvala\experiment\npbench&gt; batch_idemo -i .\benchmarks_npbench\ -c -l
+</code></pre>
+<p>DIMACS clique-complement sub-experiment (68 instances):</p>
+<pre><code class="language-powershell">PS D:\Work\NP\hvala\experiment\npbench&gt; batch_idemo -i .\clique_complement_npbench\ -c -l
+</code></pre>
+<p>Network Data Repository run (130 instances):</p>
+<pre><code class="language-powershell">PS D:\Work\NP\hvala\experiment&gt; batch_idemo -i .\network\ -c -l
+</code></pre>
+<p>Adversarial-suite run (13 instances, <code>experiment/hardest/</code>):</p>
+<pre><code class="language-powershell">PS D:\Work\NP\hvala\experiment&gt; batch_idemo -i .\hardest\ -c -l
+</code></pre>
+<p>All four commands write a log file inside the input directory whose name matches the directory (<code>benchmarks_npbench.txt</code>, <code>clique_complement_npbench.txt</code>, <code>network.txt</code>, <code>hardest.txt</code>).</p>
+<h2>Raw Output Logs</h2>
+<p>Raw per-instance logs from each batch run are committed to this repository under the same directory as the input instances:</p>
+<ul>
+<li><code>experiment/npbench/benchmarks_npbench/benchmarks_npbench.txt</code> — FRB run log (timestamps, parse time in ms, algorithm time in ms, returned cover size).</li>
+<li><code>experiment/npbench/clique_complement_npbench/clique_complement_npbench.txt</code> — DIMACS clique-complement run log (same fields).</li>
+<li><code>experiment/network/network.txt</code> — Network Data Repository run log.</li>
+<li><code>experiment/hardest/hardest.txt</code> — Adversarial-suite run log (same fields). On every one of the 13 adversarial instances, the cover size in this log equals the certified OPT, i.e.\ Hvala returns ratio 1.000 on every adversarial instance in the suite.</li>
+</ul>
+<p>Each log line follows the format:</p>
+<pre><code>YYYY-MM-DD HH:MM:SS,sss - INFO - Parsing the Input File started
+YYYY-MM-DD HH:MM:SS,sss - INFO - Parsing the Input File done in: &lt;parse_ms&gt; milliseconds
+YYYY-MM-DD HH:MM:SS,sss - INFO - Our Algorithm with an approximate solution started
+YYYY-MM-DD HH:MM:SS,sss - INFO - Our Algorithm with an approximate solution done in: &lt;algo_ms&gt; milliseconds
+YYYY-MM-DD HH:MM:SS,sss - INFO - &lt;instance-name&gt;: Vertex Cover Size &lt;size&gt;
+</code></pre>
+<p>Cumulative algorithm time per sub-experiment can be regenerated by summing the <code>&lt;algo_ms&gt;</code> field over all instances in the corresponding log file.</p>
+<h2>Excluded Graph Files and How to Re-download Them</h2>
+<p>To keep the committed repository to a reasonable size, <strong>the raw DIMACS-format graph files of the three large benchmark sub-experiments are not committed to git</strong>. Specifically, the following three folders contain only their <code>.txt</code> log file in the repository and are otherwise empty until you re-download the instances yourself:</p>
+<table>
+<thead>
+<tr>
+<th>Folder</th>
+<th>What is committed</th>
+<th>What is excluded</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>experiment/npbench/benchmarks_npbench/</code></td>
+<td><code>benchmarks_npbench.txt</code> (FRB run log; $41$ instances)</td>
+<td>$41$ <code>.mis</code> DIMACS files (FRB hard instances)</td>
+</tr>
+<tr>
+<td><code>experiment/npbench/clique_complement_npbench/</code></td>
+<td><code>clique_complement_npbench.txt</code> (DIMACS run log; $68$ instances)</td>
+<td>$68$ <code>.clq-compliment.txt</code> DIMACS files (DIMACS clique-complement graphs)</td>
+</tr>
+<tr>
+<td><code>experiment/network/</code></td>
+<td><code>network.txt</code> (real-world run log; $130$ instances)</td>
+<td>$130$ DIMACS files (Network Data Repository graphs)</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>experiment/hardest/</code> folder, in contrast, is shipped <strong>in full</strong> --- both the $13$ <code>.clq</code> DIMACS files and the <code>hardest.txt</code> log are committed --- because the entire adversarial suite is only a few KB.</p>
+<p>Since every per-instance numerical claim in Sections 6.1 and 6.2 of the manuscript (cover size, parse time, algorithm time) is reproducibly extracted from the committed log files, the empirical results remain fully auditable from this repository alone; only the raw graph data files themselves must be re-downloaded if you wish to rerun the experiment end-to-end.</p>
+<h3>Re-download Instructions</h3>
+<p><strong>NPBench FRB ($41$ files, <code>experiment/npbench/benchmarks_npbench/</code>).</strong> Download every <code>.mis</code> file from the NPBench § &quot;Vertex Cover instances&quot; page and place them in this folder. Source:</p>
+<ul>
+<li>NPBench: <a href="https://roars.dev/npbench/">https://roars.dev/npbench/</a></li>
+<li>Direct page: NPBench § &quot;Vertex Cover instances&quot;</li>
+</ul>
+<p>The required file names appear verbatim in the log file <code>benchmarks_npbench.txt</code> (each instance is reported on a line of the form <code>&lt;name&gt;.mis: Vertex Cover Size &lt;size&gt;</code>).</p>
+<p><strong>NPBench DIMACS clique-complement ($68$ files, <code>experiment/npbench/clique_complement_npbench/</code>).</strong> Download every <code>.clq-compliment.txt</code> file from the NPBench § &quot;Clique complement graphs&quot; page:</p>
+<ul>
+<li>NPBench: <a href="https://roars.dev/npbench/">https://roars.dev/npbench/</a></li>
+<li>Direct page: NPBench § &quot;Clique complement graphs&quot;</li>
+</ul>
+<p>The required file names appear in the log file <code>clique_complement_npbench.txt</code>. Note that two instances (<code>C500.9</code> and <code>C1000.9</code>) only have a best-known lower bound on the maximum clique number; the manuscript flags these with $^{\dagger}$ in Table 3.</p>
+<p><strong>Network Data Repository ($130$ files, <code>experiment/network/</code>).</strong> Each instance is its own page at <a href="https://networkrepository.com/">https://networkrepository.com/</a>; the page URL is <code>https://networkrepository.com/&lt;name&gt;.php</code>. For example, the largest single instance, <code>ca-coauthors-dblp</code> ($231$ MB uncompressed), lives at <a href="https://networkrepository.com/ca-coauthors-dblp.php">https://networkrepository.com/ca-coauthors-dblp.php</a>. The full list of required file names is recorded in <code>network.txt</code> (each instance is reported on a line of the form <code>&lt;name&gt;: Vertex Cover Size &lt;size&gt;</code>).</p>
+<h3>Reproducing the Experiments After Re-downloading</h3>
+<p>Once the graph files are in place, the original <code>batch_idemo</code> invocations from the manuscript still apply verbatim:</p>
+<pre><code class="language-powershell">PS D:\Work\NP\hvala\experiment\npbench&gt; batch_idemo -i .\benchmarks_npbench\         -c -l
+PS D:\Work\NP\hvala\experiment\npbench&gt; batch_idemo -i .\clique_complement_npbench\  -c -l
+PS D:\Work\NP\hvala\experiment&gt;         batch_idemo -i .\network\                   -c -l
+PS D:\Work\NP\hvala\experiment&gt;         batch_idemo -i .\hardest\                   -c -l
+</code></pre>
+<p>The fourth command runs on the in-repository adversarial suite without any download.</p>
+<h3><code>.gitignore</code> Policy</h3>
+<p>The repository's <code>.gitignore</code> excludes every DIMACS-format file under <code>experiment/npbench/</code> and <code>experiment/network/</code> while keeping the <code>.txt</code> log files committed. The corresponding rules are already in <code>.gitignore</code> (<code>experiment/npbench/benchmarks_npbench/*.mis</code>, <code>experiment/npbench/clique_complement_npbench/*.clq-compliment.txt</code>, <code>experiment/network/&lt;file&gt;</code> for every Network Data Repository file). The <code>experiment/hardest/*.clq</code> files are explicitly <strong>not</strong> ignored and are committed.</p>
+<h2>Per-Candidate Ablation</h2>
+<p>The per-family ablation reported in Section 6.3 of the manuscript runs each of the four ensemble candidates ($C_1$, $C_2$, $C_3$, and $\tilde C_4 = \text{PruneRedundant}(\tilde C_1\cup\tilde C_2\cup\tilde C_3)$) independently on every instance. The ablation harness consists of two scripts:</p>
+<ul>
+<li><code>ablation.py</code> — single-instance, four-candidate driver. Loads a DIMACS file, runs <code>maximal_matching_vertex_cover</code>, <code>bucket_degree_greedy</code>, <code>covering_via_reduction_max_degree_1</code>, prunes each independently, then computes the pruned union, and emits a JSON record per instance.</li>
+<li><code>aggregate.py</code> — collects per-instance JSON records, groups by family (FRB, brock200, brock400, ..., bio, ca, scc, socfb, ...), and computes mean cover size and &quot;% min-attaining&quot; rate per candidate.</li>
+</ul>
+<p>Invocation (from the repository root, after <code>pip install hvala</code>):</p>
+<pre><code class="language-bash">python ablation.py experiment/npbench/benchmarks_npbench         &gt; frb.json
+python ablation.py experiment/npbench/clique_complement_npbench  &gt; dimacs.json
+python ablation.py experiment/network                            &gt; realworld.json
+python aggregate.py frb.json dimacs.json realworld.json          &gt; ablation_summary.json
+</code></pre>
+<p>The summary JSON is the input used to regenerate Tables 4 and 5 of the manuscript.</p>
+<h2>Regenerating the Manuscript Tables</h2>
+<p>A regenerator script reads the raw log files and the ablation summary JSON, and emits the LaTeX rows for every table in Sections 6.1, 6.2, and 6.3:</p>
+<pre><code class="language-bash">python make_tables.py \
+    --frb-log     experiment/npbench/benchmarks_npbench/benchmarks_npbench.txt \
+    --dimacs-log  experiment/npbench/clique_complement_npbench/clique_complement_npbench.txt \
+    --network-log experiment/network/network.txt \
+    --ablation    ablation_summary.json \
+    --out         tables.tex
+</code></pre>
+<p>The emitted <code>tables.tex</code> is a drop-in replacement for the body rows of Tables 1–5 of the manuscript.</p>
+<h2>Reference Values for Approximation Ratios</h2>
+<p>For the NPBench instances, the reference $\mathrm{OPT}$ values are the ones distributed by NPBench for FRB and the $n-\omega(G)$ values for DIMACS clique-complements (with $\omega$ from Mascia's compilation, with the two $^{\dagger}$-flagged best-known-only cases noted above). For the Network Data Repository instances, the reference cover sizes (51 of 130 instances) are taken from the Milagro experiment compilation; of those 51, 29 are mathematically certified optima recovered from tree-like or otherwise polynomially solvable components, and 22 are best-known approximate cover sizes. For the adversarial <code>experiment/hardest/</code> suite, all 13 instances have a <strong>certified</strong> $\mathrm{OPT}$ computed in one of three ways: by König's theorem (maximum matching equals minimum vertex cover) on the bipartite instances (crown family, Heawood, Pappus, Desargues, both <code>bip-3reg-*</code> expanders); by the closed-form formula $\mathrm{OPT}(C_n)=(n+1)/2$ for odd cycles; and by exhaustive brute force on the small non-bipartite named graphs (Petersen, Möbius-Kantor). The manuscript reports certified approximation ratios and ratios-to-best-known separately; the same separation is recorded per-instance in the corresponding result tables.</p>
+<hr>
+<h1>License</h1>
+<ul>
+<li>MIT License.</li>
+</ul>
+</body>
 </html>

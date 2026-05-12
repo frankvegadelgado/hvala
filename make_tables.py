@@ -1,0 +1,157 @@
+"""
+make_tables.py --- regenerate the LaTeX body rows of the manuscript tables.
+
+Reads the four raw batch_idemo log files and the ablation summary JSON
+produced by `aggregate.py`, and emits a single .tex file with the body
+rows for every per-instance and per-family table in Sections 6.1, 6.2,
+and 6.3 of the manuscript.
+
+The emitted .tex is a drop-in replacement for the body rows --- the
+caller is expected to wrap them in the table/tabular environments
+already present in the manuscript source.
+
+Usage:
+
+    python make_tables.py \
+        --frb-log     experiment/npbench/benchmarks_npbench/benchmarks_npbench.txt \
+        --dimacs-log  experiment/npbench/clique_complement_npbench/clique_complement_npbench.txt \
+        --network-log experiment/network/network.txt \
+        --hardest-log experiment/hardest/hardest.txt \
+        --ablation    ablation_summary.json \
+        --out         tables.tex
+"""
+
+import argparse
+import json
+import re
+import sys
+from collections import defaultdict
+
+
+def parse_log(path):
+    """Parse a batch_idemo log into a list of {name, algo_ms, parse_ms, size}."""
+    if not path:
+        return []
+    rows = []
+    cur_parse = None
+    cur_algo = None
+    with open(path) as f:
+        for line in f:
+            m = re.search(r"Parsing the Input File done in: ([\d.]+) milliseconds", line)
+            if m:
+                cur_parse = float(m.group(1))
+                continue
+            m = re.search(r"Our Algorithm with an approximate solution done in: ([\d.]+) milliseconds", line)
+            if m:
+                cur_algo = float(m.group(1))
+                continue
+            m = re.search(r"INFO - ([\w./\\-]+\.[\w.-]+): Vertex Cover Size (\d+)", line)
+            if m:
+                rows.append({"name": m.group(1), "parse_ms": cur_parse,
+                             "algo_ms": cur_algo, "size": int(m.group(2))})
+                cur_parse = None
+                cur_algo = None
+    return rows
+
+
+def fmt_time(ms):
+    if ms is None:
+        return "--"
+    if ms < 1000:
+        return "{:.1f}ms".format(ms)
+    return "{:.2f}s".format(ms / 1000)
+
+
+def emit_per_instance_rows(rows, out, label):
+    """Emit one LaTeX row per instance: name & size & time \\ (without OPT
+    or ratio columns, which require a reference value the caller supplies)."""
+    out.write("% {} -- {} rows\n".format(label, len(rows)))
+    for r in rows:
+        out.write("{} & {} & {} \\\\\n".format(
+            r["name"].replace("_", r"\_"), r["size"], fmt_time(r["algo_ms"])))
+
+
+def emit_ablation_rows(summary, out, families, label):
+    """Emit one LaTeX row per family for the ablation table."""
+    out.write("\n% Ablation -- {}\n".format(label))
+    for fam in families:
+        if fam not in summary["per_family"]:
+            continue
+        d = summary["per_family"][fam]
+        mean = d["mean"]
+        pct = d["min_pct"]
+        fam_disp = fam.replace("_", r"\_")
+        out.write(
+            "\\texttt{{{}}} & {} & {:.1f} & {:.1f} & {:.1f} & {:.1f} & "
+            "{:.0f} & {:.0f} & {:.0f} & {:.0f} \\\\\n".format(
+                fam_disp, d["n"], mean["c1"], mean["c2"], mean["c3"], mean["c4"],
+                pct["c1"], pct["c2"], pct["c3"], pct["c4"]))
+    o = summary.get("overall")
+    if o:
+        out.write(
+            "\\midrule\n\\textbf{{Overall}} & \\textbf{{{}}} & "
+            "\\textbf{{{:.1f}}} & \\textbf{{{:.1f}}} & \\textbf{{{:.1f}}} & \\textbf{{{:.1f}}} & "
+            "\\textbf{{{:.0f}}} & \\textbf{{{:.0f}}} & \\textbf{{{:.0f}}} & \\textbf{{{:.0f}}} \\\\\n".format(
+                o["n"], o["mean"]["c1"], o["mean"]["c2"], o["mean"]["c3"], o["mean"]["c4"],
+                o["min_pct"]["c1"], o["min_pct"]["c2"], o["min_pct"]["c3"], o["min_pct"]["c4"]))
+
+
+NPB_FAMILIES = [
+    "FRB", "brock200", "brock400", "brock800",
+    "C125", "C250", "C500", "C1000",
+    "c-fat200", "c-fat500", "gen200", "gen400",
+    "hamming6", "hamming8", "hamming10",
+    "johnson8", "johnson16", "johnson32",
+    "keller4", "keller5",
+    "MANN_a9", "MANN_a27", "MANN_a45", "MANN_a81",
+    "p_hat300", "p_hat500", "p_hat700", "p_hat1000",
+    "san200", "san400", "sanr200", "sanr400",
+]
+REALWORLD_FAMILIES = [
+    "Bio", "Collab", "Email", "Infect/Reality", "Infra", "Rec",
+    "Retweet", "SCC", "SocFB", "Social", "Tech", "Web", "Wiki",
+]
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("--frb-log")
+    p.add_argument("--dimacs-log")
+    p.add_argument("--network-log")
+    p.add_argument("--hardest-log")
+    p.add_argument("--ablation")
+    p.add_argument("--out", required=True)
+    args = p.parse_args()
+
+    frb = parse_log(args.frb_log)
+    dim = parse_log(args.dimacs_log)
+    net = parse_log(args.network_log)
+    hrd = parse_log(args.hardest_log)
+
+    summary = None
+    if args.ablation:
+        with open(args.ablation) as f:
+            summary = json.load(f)
+
+    with open(args.out, "w") as out:
+        out.write("% Auto-generated by make_tables.py -- do not edit by hand.\n\n")
+        emit_per_instance_rows(frb, out, "FRB (Section 6.1, tab:npbench-frb)")
+        out.write("\n")
+        emit_per_instance_rows(dim, out, "DIMACS (Section 6.1, tab:npbench-dimacs-*)")
+        out.write("\n")
+        emit_per_instance_rows(net, out, "Real-world (Section 6.2, tab:realworld)")
+        out.write("\n")
+        emit_per_instance_rows(hrd, out, "Adversarial (Section 6.3, tab:hardest)")
+
+        if summary is not None:
+            emit_ablation_rows(summary, out, NPB_FAMILIES,
+                               "NPBench per-family (Section 6.4, tab:ablation-npbench)")
+            emit_ablation_rows(summary, out, REALWORLD_FAMILIES,
+                               "Real-world per-family (Section 6.4, tab:ablation-realworld)")
+
+    print("Wrote {}: FRB={} DIMACS={} Real-world={} Adversarial={}".format(
+        args.out, len(frb), len(dim), len(net), len(hrd)), file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,340 @@
+2026-05-11 13:45:07,296 - INFO - Parsing the Input File started
+2026-05-11 13:45:07,330 - INFO - Parsing the Input File done in: 34.38997268676758 milliseconds
+2026-05-11 13:45:07,330 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:07,396 - INFO - Our Algorithm with an approximate solution done in: 65.48953056335449 milliseconds
+2026-05-11 13:45:07,396 - INFO - brock200_1.clq-compliment.txt: Vertex Cover Size 183
+2026-05-11 13:45:07,396 - INFO - Parsing the Input File started
+2026-05-11 13:45:07,446 - INFO - Parsing the Input File done in: 50.3535270690918 milliseconds
+2026-05-11 13:45:07,446 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:07,679 - INFO - Our Algorithm with an approximate solution done in: 233.3064079284668 milliseconds
+2026-05-11 13:45:08,013 - INFO - brock200_2.clq-compliment.txt: Vertex Cover Size 192
+2026-05-11 13:45:08,013 - INFO - Parsing the Input File started
+2026-05-11 13:45:08,063 - INFO - Parsing the Input File done in: 49.63970184326172 milliseconds
+2026-05-11 13:45:08,063 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:08,354 - INFO - Our Algorithm with an approximate solution done in: 291.370153427124 milliseconds
+2026-05-11 13:45:08,354 - INFO - brock200_3.clq-compliment.txt: Vertex Cover Size 189
+2026-05-11 13:45:08,361 - INFO - Parsing the Input File started
+2026-05-11 13:45:08,413 - INFO - Parsing the Input File done in: 52.25729942321777 milliseconds
+2026-05-11 13:45:08,413 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:08,505 - INFO - Our Algorithm with an approximate solution done in: 91.9950008392334 milliseconds
+2026-05-11 13:45:08,505 - INFO - brock200_4.clq-compliment.txt: Vertex Cover Size 187
+2026-05-11 13:45:08,510 - INFO - Parsing the Input File started
+2026-05-11 13:45:08,644 - INFO - Parsing the Input File done in: 134.13596153259277 milliseconds
+2026-05-11 13:45:08,644 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:09,094 - INFO - Our Algorithm with an approximate solution done in: 450.0153064727783 milliseconds
+2026-05-11 13:45:09,094 - INFO - brock400_1.clq-compliment.txt: Vertex Cover Size 381
+2026-05-11 13:45:09,094 - INFO - Parsing the Input File started
+2026-05-11 13:45:09,260 - INFO - Parsing the Input File done in: 165.81082344055176 milliseconds
+2026-05-11 13:45:09,260 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:09,761 - INFO - Our Algorithm with an approximate solution done in: 500.5316734313965 milliseconds
+2026-05-11 13:45:09,761 - INFO - brock400_2.clq-compliment.txt: Vertex Cover Size 379
+2026-05-11 13:45:09,761 - INFO - Parsing the Input File started
+2026-05-11 13:45:09,894 - INFO - Parsing the Input File done in: 133.03089141845703 milliseconds
+2026-05-11 13:45:09,894 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:10,335 - INFO - Our Algorithm with an approximate solution done in: 441.6623115539551 milliseconds
+2026-05-11 13:45:10,335 - INFO - brock400_3.clq-compliment.txt: Vertex Cover Size 381
+2026-05-11 13:45:10,335 - INFO - Parsing the Input File started
+2026-05-11 13:45:10,535 - INFO - Parsing the Input File done in: 199.4626522064209 milliseconds
+2026-05-11 13:45:10,535 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:11,043 - INFO - Our Algorithm with an approximate solution done in: 507.7335834503174 milliseconds
+2026-05-11 13:45:11,043 - INFO - brock400_4.clq-compliment.txt: Vertex Cover Size 378
+2026-05-11 13:45:11,043 - INFO - Parsing the Input File started
+2026-05-11 13:45:11,660 - INFO - Parsing the Input File done in: 617.5060272216797 milliseconds
+2026-05-11 13:45:11,660 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:15,615 - INFO - Our Algorithm with an approximate solution done in: 3955.054759979248 milliseconds
+2026-05-11 13:45:15,615 - INFO - brock800_1.clq-compliment.txt: Vertex Cover Size 785
+2026-05-11 13:45:15,629 - INFO - Parsing the Input File started
+2026-05-11 13:45:16,342 - INFO - Parsing the Input File done in: 713.2010459899902 milliseconds
+2026-05-11 13:45:16,342 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:20,473 - INFO - Our Algorithm with an approximate solution done in: 4131.227254867554 milliseconds
+2026-05-11 13:45:20,473 - INFO - brock800_2.clq-compliment.txt: Vertex Cover Size 783
+2026-05-11 13:45:20,482 - INFO - Parsing the Input File started
+2026-05-11 13:45:21,147 - INFO - Parsing the Input File done in: 664.8752689361572 milliseconds
+2026-05-11 13:45:21,147 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:25,351 - INFO - Our Algorithm with an approximate solution done in: 4204.200267791748 milliseconds
+2026-05-11 13:45:25,351 - INFO - brock800_3.clq-compliment.txt: Vertex Cover Size 784
+2026-05-11 13:45:25,367 - INFO - Parsing the Input File started
+2026-05-11 13:45:25,891 - INFO - Parsing the Input File done in: 524.2335796356201 milliseconds
+2026-05-11 13:45:25,891 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:30,420 - INFO - Our Algorithm with an approximate solution done in: 4528.87225151062 milliseconds
+2026-05-11 13:45:30,420 - INFO - brock800_4.clq-compliment.txt: Vertex Cover Size 785
+2026-05-11 13:45:30,439 - INFO - Parsing the Input File started
+2026-05-11 13:45:30,503 - INFO - Parsing the Input File done in: 64.42952156066895 milliseconds
+2026-05-11 13:45:30,503 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:30,887 - INFO - Our Algorithm with an approximate solution done in: 383.6855888366699 milliseconds
+2026-05-11 13:45:30,887 - INFO - c-fat200-1.clq-compliment.txt: Vertex Cover Size 188
+2026-05-11 13:45:30,887 - INFO - Parsing the Input File started
+2026-05-11 13:45:30,951 - INFO - Parsing the Input File done in: 64.20373916625977 milliseconds
+2026-05-11 13:45:30,951 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:31,743 - INFO - Our Algorithm with an approximate solution done in: 790.0216579437256 milliseconds
+2026-05-11 13:45:31,743 - INFO - c-fat200-2.clq-compliment.txt: Vertex Cover Size 176
+2026-05-11 13:45:31,751 - INFO - Parsing the Input File started
+2026-05-11 13:45:31,817 - INFO - Parsing the Input File done in: 65.99903106689453 milliseconds
+2026-05-11 13:45:31,817 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:32,069 - INFO - Our Algorithm with an approximate solution done in: 251.10411643981934 milliseconds
+2026-05-11 13:45:32,069 - INFO - c-fat200-5.clq-compliment.txt: Vertex Cover Size 142
+2026-05-11 13:45:32,081 - INFO - Parsing the Input File started
+2026-05-11 13:45:32,613 - INFO - Parsing the Input File done in: 532.3021411895752 milliseconds
+2026-05-11 13:45:32,613 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:36,487 - INFO - Our Algorithm with an approximate solution done in: 3874.4897842407227 milliseconds
+2026-05-11 13:45:36,487 - INFO - c-fat500-1.clq-compliment.txt: Vertex Cover Size 486
+2026-05-11 13:45:36,504 - INFO - Parsing the Input File started
+2026-05-11 13:45:36,945 - INFO - Parsing the Input File done in: 440.2172565460205 milliseconds
+2026-05-11 13:45:36,945 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:39,683 - INFO - Our Algorithm with an approximate solution done in: 2737.830400466919 milliseconds
+2026-05-11 13:45:39,683 - INFO - c-fat500-10.clq-compliment.txt: Vertex Cover Size 374
+2026-05-11 13:45:39,694 - INFO - Parsing the Input File started
+2026-05-11 13:45:40,175 - INFO - Parsing the Input File done in: 481.07337951660156 milliseconds
+2026-05-11 13:45:40,175 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:43,921 - INFO - Our Algorithm with an approximate solution done in: 3746.096611022949 milliseconds
+2026-05-11 13:45:43,921 - INFO - c-fat500-2.clq-compliment.txt: Vertex Cover Size 474
+2026-05-11 13:45:43,939 - INFO - Parsing the Input File started
+2026-05-11 13:45:44,512 - INFO - Parsing the Input File done in: 572.5018978118896 milliseconds
+2026-05-11 13:45:44,512 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:48,196 - INFO - Our Algorithm with an approximate solution done in: 3684.5083236694336 milliseconds
+2026-05-11 13:45:48,196 - INFO - c-fat500-5.clq-compliment.txt: Vertex Cover Size 436
+2026-05-11 13:45:48,214 - INFO - Parsing the Input File started
+2026-05-11 13:45:48,465 - INFO - Parsing the Input File done in: 247.3733425140381 milliseconds
+2026-05-11 13:45:48,465 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:50,339 - INFO - Our Algorithm with an approximate solution done in: 1873.4300136566162 milliseconds
+2026-05-11 13:45:50,339 - INFO - C1000.9.clq-compliment.txt: Vertex Cover Size 945
+2026-05-11 13:45:50,348 - INFO - Parsing the Input File started
+2026-05-11 13:45:50,357 - INFO - Parsing the Input File done in: 9.488582611083984 milliseconds
+2026-05-11 13:45:50,357 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:50,532 - INFO - Our Algorithm with an approximate solution done in: 174.7417449951172 milliseconds
+2026-05-11 13:45:50,532 - INFO - C125.9.clq-compliment.txt: Vertex Cover Size 92
+2026-05-11 13:45:50,534 - INFO - Parsing the Input File started
+2026-05-11 13:45:50,562 - INFO - Parsing the Input File done in: 27.397632598876953 milliseconds
+2026-05-11 13:45:50,562 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:50,624 - INFO - Our Algorithm with an approximate solution done in: 60.77909469604492 milliseconds
+2026-05-11 13:45:50,624 - INFO - C250.9.clq-compliment.txt: Vertex Cover Size 214
+2026-05-11 13:45:50,626 - INFO - Parsing the Input File started
+2026-05-11 13:45:50,687 - INFO - Parsing the Input File done in: 61.03968620300293 milliseconds
+2026-05-11 13:45:50,687 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,024 - INFO - Our Algorithm with an approximate solution done in: 336.4877700805664 milliseconds
+2026-05-11 13:45:51,024 - INFO - C500.9.clq-compliment.txt: Vertex Cover Size 454
+2026-05-11 13:45:51,031 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,047 - INFO - Parsing the Input File done in: 15.976190567016602 milliseconds
+2026-05-11 13:45:51,047 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,080 - INFO - Our Algorithm with an approximate solution done in: 32.8831672668457 milliseconds
+2026-05-11 13:45:51,080 - INFO - gen200_p0.9_44.clq-compliment.txt: Vertex Cover Size 167
+2026-05-11 13:45:51,080 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,096 - INFO - Parsing the Input File done in: 15.792369842529297 milliseconds
+2026-05-11 13:45:51,096 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,178 - INFO - Our Algorithm with an approximate solution done in: 82.62848854064941 milliseconds
+2026-05-11 13:45:51,178 - INFO - gen200_p0.9_55.clq-compliment.txt: Vertex Cover Size 163
+2026-05-11 13:45:51,188 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,229 - INFO - Parsing the Input File done in: 40.962934494018555 milliseconds
+2026-05-11 13:45:51,229 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,421 - INFO - Our Algorithm with an approximate solution done in: 192.66247749328613 milliseconds
+2026-05-11 13:45:51,421 - INFO - gen400_p0.9_55.clq-compliment.txt: Vertex Cover Size 356
+2026-05-11 13:45:51,421 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,479 - INFO - Parsing the Input File done in: 57.19280242919922 milliseconds
+2026-05-11 13:45:51,479 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,662 - INFO - Our Algorithm with an approximate solution done in: 183.08115005493164 milliseconds
+2026-05-11 13:45:51,662 - INFO - gen400_p0.9_65.clq-compliment.txt: Vertex Cover Size 359
+2026-05-11 13:45:51,662 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,696 - INFO - Parsing the Input File done in: 34.21425819396973 milliseconds
+2026-05-11 13:45:51,696 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,863 - INFO - Our Algorithm with an approximate solution done in: 166.87941551208496 milliseconds
+2026-05-11 13:45:51,863 - INFO - gen400_p0.9_75.clq-compliment.txt: Vertex Cover Size 358
+2026-05-11 13:45:51,880 - INFO - Parsing the Input File started
+2026-05-11 13:45:51,906 - INFO - Parsing the Input File done in: 25.908470153808594 milliseconds
+2026-05-11 13:45:51,906 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:51,978 - INFO - Our Algorithm with an approximate solution done in: 72.13902473449707 milliseconds
+2026-05-11 13:45:51,978 - INFO - hamming10-2.clq-compliment.txt: Vertex Cover Size 512
+2026-05-11 13:45:51,978 - INFO - Parsing the Input File started
+2026-05-11 13:45:52,711 - INFO - Parsing the Input File done in: 733.0543994903564 milliseconds
+2026-05-11 13:45:52,711 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:59,137 - INFO - Our Algorithm with an approximate solution done in: 6425.377130508423 milliseconds
+2026-05-11 13:45:59,137 - INFO - hamming10-4.clq-compliment.txt: Vertex Cover Size 992
+2026-05-11 13:45:59,166 - INFO - Parsing the Input File started
+2026-05-11 13:45:59,172 - INFO - Parsing the Input File done in: 5.919694900512695 milliseconds
+2026-05-11 13:45:59,173 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:59,185 - INFO - Our Algorithm with an approximate solution done in: 11.731386184692383 milliseconds
+2026-05-11 13:45:59,185 - INFO - hamming6-2.clq-compliment.txt: Vertex Cover Size 32
+2026-05-11 13:45:59,186 - INFO - Parsing the Input File started
+2026-05-11 13:45:59,203 - INFO - Parsing the Input File done in: 17.319202423095703 milliseconds
+2026-05-11 13:45:59,203 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:59,254 - INFO - Our Algorithm with an approximate solution done in: 50.48775672912598 milliseconds
+2026-05-11 13:45:59,254 - INFO - hamming6-4.clq-compliment.txt: Vertex Cover Size 60
+2026-05-11 13:45:59,254 - INFO - Parsing the Input File started
+2026-05-11 13:45:59,277 - INFO - Parsing the Input File done in: 23.47254753112793 milliseconds
+2026-05-11 13:45:59,277 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:45:59,719 - INFO - Our Algorithm with an approximate solution done in: 441.98060035705566 milliseconds
+2026-05-11 13:45:59,719 - INFO - hamming8-2.clq-compliment.txt: Vertex Cover Size 128
+2026-05-11 13:45:59,719 - INFO - Parsing the Input File started
+2026-05-11 13:45:59,870 - INFO - Parsing the Input File done in: 150.21729469299316 milliseconds
+2026-05-11 13:45:59,870 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:00,469 - INFO - Our Algorithm with an approximate solution done in: 599.6909141540527 milliseconds
+2026-05-11 13:46:00,469 - INFO - hamming8-4.clq-compliment.txt: Vertex Cover Size 240
+2026-05-11 13:46:00,487 - INFO - Parsing the Input File started
+2026-05-11 13:46:00,503 - INFO - Parsing the Input File done in: 15.855073928833008 milliseconds
+2026-05-11 13:46:00,503 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:00,586 - INFO - Our Algorithm with an approximate solution done in: 83.31012725830078 milliseconds
+2026-05-11 13:46:00,586 - INFO - johnson16-2-4.clq-compliment.txt: Vertex Cover Size 112
+2026-05-11 13:46:00,586 - INFO - Parsing the Input File started
+2026-05-11 13:46:00,773 - INFO - Parsing the Input File done in: 186.83815002441406 milliseconds
+2026-05-11 13:46:00,773 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:01,600 - INFO - Our Algorithm with an approximate solution done in: 827.6362419128418 milliseconds
+2026-05-11 13:46:01,600 - INFO - johnson32-2-4.clq-compliment.txt: Vertex Cover Size 480
+2026-05-11 13:46:01,612 - INFO - Parsing the Input File started
+2026-05-11 13:46:01,616 - INFO - Parsing the Input File done in: 2.0885467529296875 milliseconds
+2026-05-11 13:46:01,616 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:01,619 - INFO - Our Algorithm with an approximate solution done in: 2.9358863830566406 milliseconds
+2026-05-11 13:46:01,619 - INFO - johnson8-2-4.clq-compliment.txt: Vertex Cover Size 24
+2026-05-11 13:46:01,619 - INFO - Parsing the Input File started
+2026-05-11 13:46:01,635 - INFO - Parsing the Input File done in: 16.508817672729492 milliseconds
+2026-05-11 13:46:01,635 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:01,668 - INFO - Our Algorithm with an approximate solution done in: 32.259225845336914 milliseconds
+2026-05-11 13:46:01,668 - INFO - johnson8-4-4.clq-compliment.txt: Vertex Cover Size 56
+2026-05-11 13:46:01,668 - INFO - Parsing the Input File started
+2026-05-11 13:46:01,734 - INFO - Parsing the Input File done in: 66.59126281738281 milliseconds
+2026-05-11 13:46:01,735 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:02,083 - INFO - Our Algorithm with an approximate solution done in: 348.79350662231445 milliseconds
+2026-05-11 13:46:02,083 - INFO - keller4.clq-compliment.txt: Vertex Cover Size 162
+2026-05-11 13:46:02,092 - INFO - Parsing the Input File started
+2026-05-11 13:46:03,049 - INFO - Parsing the Input File done in: 956.97021484375 milliseconds
+2026-05-11 13:46:03,049 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:08,012 - INFO - Our Algorithm with an approximate solution done in: 4962.714910507202 milliseconds
+2026-05-11 13:46:08,012 - INFO - keller5.clq-compliment.txt: Vertex Cover Size 759
+2026-05-11 13:46:08,027 - INFO - Parsing the Input File started
+2026-05-11 13:46:08,042 - INFO - Parsing the Input File done in: 15.31219482421875 milliseconds
+2026-05-11 13:46:08,042 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:08,078 - INFO - Our Algorithm with an approximate solution done in: 35.658836364746094 milliseconds
+2026-05-11 13:46:08,078 - INFO - MANN_a27.clq-compliment.txt: Vertex Cover Size 253
+2026-05-11 13:46:08,078 - INFO - Parsing the Input File started
+2026-05-11 13:46:08,110 - INFO - Parsing the Input File done in: 32.06014633178711 milliseconds
+2026-05-11 13:46:08,110 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:08,256 - INFO - Our Algorithm with an approximate solution done in: 145.4916000366211 milliseconds
+2026-05-11 13:46:08,256 - INFO - MANN_a45.clq-compliment.txt: Vertex Cover Size 695
+2026-05-11 13:46:08,258 - INFO - Parsing the Input File started
+2026-05-11 13:46:08,356 - INFO - Parsing the Input File done in: 98.27661514282227 milliseconds
+2026-05-11 13:46:08,356 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:09,126 - INFO - Our Algorithm with an approximate solution done in: 769.7768211364746 milliseconds
+2026-05-11 13:46:09,126 - INFO - MANN_a81.clq-compliment.txt: Vertex Cover Size 2225
+2026-05-11 13:46:09,126 - INFO - Parsing the Input File started
+2026-05-11 13:46:09,137 - INFO - Parsing the Input File done in: 2.5200843811035156 milliseconds
+2026-05-11 13:46:09,137 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:09,143 - INFO - Our Algorithm with an approximate solution done in: 6.551504135131836 milliseconds
+2026-05-11 13:46:09,143 - INFO - MANN_a9.clq-compliment.txt: Vertex Cover Size 29
+2026-05-11 13:46:09,143 - INFO - Parsing the Input File started
+2026-05-11 13:46:10,732 - INFO - Parsing the Input File done in: 1588.5300636291504 milliseconds
+2026-05-11 13:46:10,732 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:20,329 - INFO - Our Algorithm with an approximate solution done in: 9597.487449645996 milliseconds
+2026-05-11 13:46:20,329 - INFO - p_hat1000-3.clq-compliment.txt: Vertex Cover Size 942
+2026-05-11 13:46:20,363 - INFO - Parsing the Input File started
+2026-05-11 13:46:20,762 - INFO - Parsing the Input File done in: 398.8950252532959 milliseconds
+2026-05-11 13:46:20,762 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:23,197 - INFO - Our Algorithm with an approximate solution done in: 2431.7643642425537 milliseconds
+2026-05-11 13:46:23,197 - INFO - p_hat300-1.clq-compliment.txt: Vertex Cover Size 292
+2026-05-11 13:46:23,207 - INFO - Parsing the Input File started
+2026-05-11 13:46:23,485 - INFO - Parsing the Input File done in: 277.65703201293945 milliseconds
+2026-05-11 13:46:23,485 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:24,866 - INFO - Our Algorithm with an approximate solution done in: 1380.4502487182617 milliseconds
+2026-05-11 13:46:24,866 - INFO - p_hat300-2.clq-compliment.txt: Vertex Cover Size 277
+2026-05-11 13:46:24,873 - INFO - Parsing the Input File started
+2026-05-11 13:46:25,008 - INFO - Parsing the Input File done in: 135.32376289367676 milliseconds
+2026-05-11 13:46:25,008 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:25,743 - INFO - Our Algorithm with an approximate solution done in: 735.5148792266846 milliseconds
+2026-05-11 13:46:25,743 - INFO - p_hat300-3.clq-compliment.txt: Vertex Cover Size 268
+2026-05-11 13:46:25,750 - INFO - Parsing the Input File started
+2026-05-11 13:46:27,022 - INFO - Parsing the Input File done in: 1272.1116542816162 milliseconds
+2026-05-11 13:46:27,022 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:33,316 - INFO - Our Algorithm with an approximate solution done in: 6293.415307998657 milliseconds
+2026-05-11 13:46:33,316 - INFO - p_hat500-1.clq-compliment.txt: Vertex Cover Size 492
+2026-05-11 13:46:33,347 - INFO - Parsing the Input File started
+2026-05-11 13:46:34,123 - INFO - Parsing the Input File done in: 775.8433818817139 milliseconds
+2026-05-11 13:46:34,123 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:38,576 - INFO - Our Algorithm with an approximate solution done in: 4452.367544174194 milliseconds
+2026-05-11 13:46:38,576 - INFO - p_hat500-2.clq-compliment.txt: Vertex Cover Size 469
+2026-05-11 13:46:38,605 - INFO - Parsing the Input File started
+2026-05-11 13:46:39,008 - INFO - Parsing the Input File done in: 403.0745029449463 milliseconds
+2026-05-11 13:46:39,008 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:41,306 - INFO - Our Algorithm with an approximate solution done in: 2297.657012939453 milliseconds
+2026-05-11 13:46:41,306 - INFO - p_hat500-3.clq-compliment.txt: Vertex Cover Size 454
+2026-05-11 13:46:41,306 - INFO - Parsing the Input File started
+2026-05-11 13:46:43,852 - INFO - Parsing the Input File done in: 2546.318531036377 milliseconds
+2026-05-11 13:46:43,852 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:46:58,135 - INFO - Our Algorithm with an approximate solution done in: 14283.612966537476 milliseconds
+2026-05-11 13:46:58,135 - INFO - p_hat700-1.clq-compliment.txt: Vertex Cover Size 693
+2026-05-11 13:46:58,185 - INFO - Parsing the Input File started
+2026-05-11 13:46:59,729 - INFO - Parsing the Input File done in: 1543.808937072754 milliseconds
+2026-05-11 13:46:59,729 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:09,241 - INFO - Our Algorithm with an approximate solution done in: 9511.877298355103 milliseconds
+2026-05-11 13:47:09,241 - INFO - p_hat700-2.clq-compliment.txt: Vertex Cover Size 658
+2026-05-11 13:47:09,283 - INFO - Parsing the Input File started
+2026-05-11 13:47:10,070 - INFO - Parsing the Input File done in: 786.3259315490723 milliseconds
+2026-05-11 13:47:10,071 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:14,780 - INFO - Our Algorithm with an approximate solution done in: 4708.864212036133 milliseconds
+2026-05-11 13:47:14,781 - INFO - p_hat700-3.clq-compliment.txt: Vertex Cover Size 642
+2026-05-11 13:47:14,801 - INFO - Parsing the Input File started
+2026-05-11 13:47:14,869 - INFO - Parsing the Input File done in: 67.9168701171875 milliseconds
+2026-05-11 13:47:14,869 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:15,166 - INFO - Our Algorithm with an approximate solution done in: 296.89908027648926 milliseconds
+2026-05-11 13:47:15,166 - INFO - san200_0.7_1.clq-compliment.txt: Vertex Cover Size 184
+2026-05-11 13:47:15,166 - INFO - Parsing the Input File started
+2026-05-11 13:47:15,260 - INFO - Parsing the Input File done in: 93.61958503723145 milliseconds
+2026-05-11 13:47:15,260 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:15,577 - INFO - Our Algorithm with an approximate solution done in: 313.7071132659912 milliseconds
+2026-05-11 13:47:15,577 - INFO - san200_0.7_2.clq-compliment.txt: Vertex Cover Size 188
+2026-05-11 13:47:15,582 - INFO - Parsing the Input File started
+2026-05-11 13:47:15,609 - INFO - Parsing the Input File done in: 26.86285972595215 milliseconds
+2026-05-11 13:47:15,609 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:15,699 - INFO - Our Algorithm with an approximate solution done in: 89.39123153686523 milliseconds
+2026-05-11 13:47:15,699 - INFO - san200_0.9_1.clq-compliment.txt: Vertex Cover Size 155
+2026-05-11 13:47:15,711 - INFO - Parsing the Input File started
+2026-05-11 13:47:15,733 - INFO - Parsing the Input File done in: 21.512508392333984 milliseconds
+2026-05-11 13:47:15,733 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:15,833 - INFO - Our Algorithm with an approximate solution done in: 100.60834884643555 milliseconds
+2026-05-11 13:47:15,833 - INFO - san200_0.9_2.clq-compliment.txt: Vertex Cover Size 162
+2026-05-11 13:47:15,833 - INFO - Parsing the Input File started
+2026-05-11 13:47:15,864 - INFO - Parsing the Input File done in: 30.874252319335938 milliseconds
+2026-05-11 13:47:15,864 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:16,315 - INFO - Our Algorithm with an approximate solution done in: 451.0657787322998 milliseconds
+2026-05-11 13:47:16,315 - INFO - san200_0.9_3.clq-compliment.txt: Vertex Cover Size 169
+2026-05-11 13:47:16,315 - INFO - Parsing the Input File started
+2026-05-11 13:47:16,814 - INFO - Parsing the Input File done in: 498.5969066619873 milliseconds
+2026-05-11 13:47:16,814 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:19,178 - INFO - Our Algorithm with an approximate solution done in: 2364.351272583008 milliseconds
+2026-05-11 13:47:19,178 - INFO - san400_0.5_1.clq-compliment.txt: Vertex Cover Size 393
+2026-05-11 13:47:19,178 - INFO - Parsing the Input File started
+2026-05-11 13:47:19,486 - INFO - Parsing the Input File done in: 307.5430393218994 milliseconds
+2026-05-11 13:47:19,486 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:20,953 - INFO - Our Algorithm with an approximate solution done in: 1466.9690132141113 milliseconds
+2026-05-11 13:47:20,953 - INFO - san400_0.7_1.clq-compliment.txt: Vertex Cover Size 379
+2026-05-11 13:47:20,961 - INFO - Parsing the Input File started
+2026-05-11 13:47:21,375 - INFO - Parsing the Input File done in: 413.46287727355957 milliseconds
+2026-05-11 13:47:21,375 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:22,774 - INFO - Our Algorithm with an approximate solution done in: 1399.21236038208 milliseconds
+2026-05-11 13:47:22,774 - INFO - san400_0.7_2.clq-compliment.txt: Vertex Cover Size 385
+2026-05-11 13:47:22,787 - INFO - Parsing the Input File started
+2026-05-11 13:47:23,073 - INFO - Parsing the Input File done in: 284.8806381225586 milliseconds
+2026-05-11 13:47:23,073 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:24,503 - INFO - Our Algorithm with an approximate solution done in: 1429.6824932098389 milliseconds
+2026-05-11 13:47:24,506 - INFO - san400_0.7_3.clq-compliment.txt: Vertex Cover Size 388
+2026-05-11 13:47:24,507 - INFO - Parsing the Input File started
+2026-05-11 13:47:24,613 - INFO - Parsing the Input File done in: 105.99160194396973 milliseconds
+2026-05-11 13:47:24,613 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:25,121 - INFO - Our Algorithm with an approximate solution done in: 507.9183578491211 milliseconds
+2026-05-11 13:47:25,121 - INFO - san400_0.9_1.clq-compliment.txt: Vertex Cover Size 348
+2026-05-11 13:47:25,121 - INFO - Parsing the Input File started
+2026-05-11 13:47:25,208 - INFO - Parsing the Input File done in: 87.10741996765137 milliseconds
+2026-05-11 13:47:25,208 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:25,539 - INFO - Our Algorithm with an approximate solution done in: 330.6591510772705 milliseconds
+2026-05-11 13:47:25,539 - INFO - sanr200_0.7.clq-compliment.txt: Vertex Cover Size 184
+2026-05-11 13:47:25,539 - INFO - Parsing the Input File started
+2026-05-11 13:47:25,571 - INFO - Parsing the Input File done in: 32.45854377746582 milliseconds
+2026-05-11 13:47:25,571 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:25,654 - INFO - Our Algorithm with an approximate solution done in: 82.97920227050781 milliseconds
+2026-05-11 13:47:25,654 - INFO - sanr200_0.9.clq-compliment.txt: Vertex Cover Size 160
+2026-05-11 13:47:25,654 - INFO - Parsing the Input File started
+2026-05-11 13:47:26,147 - INFO - Parsing the Input File done in: 493.1073188781738 milliseconds
+2026-05-11 13:47:26,147 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:28,659 - INFO - Our Algorithm with an approximate solution done in: 2511.608839035034 milliseconds
+2026-05-11 13:47:28,660 - INFO - sanr400_0.5.clq-compliment.txt: Vertex Cover Size 388
+2026-05-11 13:47:28,672 - INFO - Parsing the Input File started
+2026-05-11 13:47:28,969 - INFO - Parsing the Input File done in: 297.4121570587158 milliseconds
+2026-05-11 13:47:28,969 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:47:30,530 - INFO - Our Algorithm with an approximate solution done in: 1561.1050128936768 milliseconds
+2026-05-11 13:47:30,532 - INFO - sanr400_0.7.clq-compliment.txt: Vertex Cover Size 383

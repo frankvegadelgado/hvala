@@ -1,0 +1,65 @@
+2026-05-12 09:20:50,458 - INFO - Parsing the Input File started
+2026-05-12 09:20:50,468 - INFO - Parsing the Input File done in: 9.902000427246094 milliseconds
+2026-05-12 09:20:50,468 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:50,468 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:50,468 - INFO - bip-3reg-100.clq: Vertex Cover Size 50
+2026-05-12 09:20:50,468 - INFO - Parsing the Input File started
+2026-05-12 09:20:50,500 - INFO - Parsing the Input File done in: 31.967878341674805 milliseconds
+2026-05-12 09:20:50,500 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:50,500 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:50,847 - INFO - bip-3reg-500.clq: Vertex Cover Size 250
+2026-05-12 09:20:50,847 - INFO - Parsing the Input File started
+2026-05-12 09:20:50,887 - INFO - Parsing the Input File done in: 39.533138275146484 milliseconds
+2026-05-12 09:20:50,887 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:50,985 - INFO - Our Algorithm with an approximate solution done in: 98.02961349487305 milliseconds
+2026-05-12 09:20:50,985 - INFO - crown-100.clq: Vertex Cover Size 100
+2026-05-12 09:20:50,985 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,001 - INFO - Parsing the Input File done in: 15.952110290527344 milliseconds
+2026-05-12 09:20:51,001 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,001 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:51,001 - INFO - crown-25.clq: Vertex Cover Size 25
+2026-05-12 09:20:51,001 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,040 - INFO - Parsing the Input File done in: 38.697242736816406 milliseconds
+2026-05-12 09:20:51,040 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,062 - INFO - Our Algorithm with an approximate solution done in: 22.07493782043457 milliseconds
+2026-05-12 09:20:51,062 - INFO - crown-50.clq: Vertex Cover Size 50
+2026-05-12 09:20:51,063 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,070 - INFO - Parsing the Input File done in: 6.809234619140625 milliseconds
+2026-05-12 09:20:51,070 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,072 - INFO - Our Algorithm with an approximate solution done in: 1.1217594146728516 milliseconds
+2026-05-12 09:20:51,072 - INFO - desargues.clq: Vertex Cover Size 10
+2026-05-12 09:20:51,073 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,081 - INFO - Parsing the Input File done in: 8.630752563476562 milliseconds
+2026-05-12 09:20:51,081 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,082 - INFO - Our Algorithm with an approximate solution done in: 1.0113716125488281 milliseconds
+2026-05-12 09:20:51,082 - INFO - heawood.clq: Vertex Cover Size 7
+2026-05-12 09:20:51,082 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,089 - INFO - Parsing the Input File done in: 6.597757339477539 milliseconds
+2026-05-12 09:20:51,089 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,089 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:51,089 - INFO - mobius-kantor.clq: Vertex Cover Size 8
+2026-05-12 09:20:51,089 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,106 - INFO - Parsing the Input File done in: 16.83807373046875 milliseconds
+2026-05-12 09:20:51,106 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,120 - INFO - Our Algorithm with an approximate solution done in: 13.929367065429688 milliseconds
+2026-05-12 09:20:51,120 - INFO - odd-cycle-1001.clq: Vertex Cover Size 501
+2026-05-12 09:20:51,121 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,135 - INFO - Parsing the Input File done in: 14.14179801940918 milliseconds
+2026-05-12 09:20:51,135 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,137 - INFO - Our Algorithm with an approximate solution done in: 2.2516250610351562 milliseconds
+2026-05-12 09:20:51,137 - INFO - odd-cycle-101.clq: Vertex Cover Size 51
+2026-05-12 09:20:51,138 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,152 - INFO - Parsing the Input File done in: 12.168169021606445 milliseconds
+2026-05-12 09:20:51,152 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,157 - INFO - Our Algorithm with an approximate solution done in: 5.629062652587891 milliseconds
+2026-05-12 09:20:51,157 - INFO - odd-cycle-501.clq: Vertex Cover Size 251
+2026-05-12 09:20:51,158 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,171 - INFO - Parsing the Input File done in: 13.106107711791992 milliseconds
+2026-05-12 09:20:51,171 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,173 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:51,173 - INFO - pappus.clq: Vertex Cover Size 9
+2026-05-12 09:20:51,173 - INFO - Parsing the Input File started
+2026-05-12 09:20:51,186 - INFO - Parsing the Input File done in: 13.782978057861328 milliseconds
+2026-05-12 09:20:51,186 - INFO - Our Algorithm with an approximate solution started
+2026-05-12 09:20:51,186 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-05-12 09:20:51,186 - INFO - petersen.clq: Vertex Cover Size 6

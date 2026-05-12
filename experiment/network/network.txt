@@ -1,0 +1,650 @@
+2026-04-22 00:45:02,865 - INFO - Parsing the Input File started
+2026-04-22 00:45:03,005 - INFO - Parsing the Input File done in: 139.79840278625488 milliseconds
+2026-04-22 00:45:03,005 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:03,035 - INFO - Our Algorithm with an approximate solution done in: 30.335664749145508 milliseconds
+2026-04-22 00:45:03,035 - INFO - bio-celegans: Vertex Cover Size 257
+2026-04-22 00:45:03,040 - INFO - Parsing the Input File started
+2026-04-22 00:45:03,085 - INFO - Parsing the Input File done in: 44.49343681335449 milliseconds
+2026-04-22 00:45:03,085 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:03,104 - INFO - Our Algorithm with an approximate solution done in: 18.74995231628418 milliseconds
+2026-04-22 00:45:03,105 - INFO - bio-diseasome: Vertex Cover Size 285
+2026-04-22 00:45:03,105 - INFO - Parsing the Input File started
+2026-04-22 00:45:03,195 - INFO - Parsing the Input File done in: 90.09099006652832 milliseconds
+2026-04-22 00:45:03,195 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:03,690 - INFO - Our Algorithm with an approximate solution done in: 495.2585697174072 milliseconds
+2026-04-22 00:45:03,690 - INFO - bio-dmela: Vertex Cover Size 2672
+2026-04-22 00:45:03,697 - INFO - Parsing the Input File started
+2026-04-22 00:45:03,815 - INFO - Parsing the Input File done in: 118.16048622131348 milliseconds
+2026-04-22 00:45:03,815 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:03,872 - INFO - Our Algorithm with an approximate solution done in: 57.523488998413086 milliseconds
+2026-04-22 00:45:03,872 - INFO - bio-yeast: Vertex Cover Size 464
+2026-04-22 00:45:03,874 - INFO - Parsing the Input File started
+2026-04-22 00:45:04,605 - INFO - Parsing the Input File done in: 730.5545806884766 milliseconds
+2026-04-22 00:45:04,605 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:10,654 - INFO - Our Algorithm with an approximate solution done in: 6049.7894287109375 milliseconds
+2026-04-22 00:45:10,654 - INFO - ca-AstroPh: Vertex Cover Size 11512
+2026-04-22 00:45:10,680 - INFO - Parsing the Input File started
+2026-04-22 00:45:14,005 - INFO - Parsing the Input File done in: 3324.963092803955 milliseconds
+2026-04-22 00:45:14,005 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:45:36,447 - INFO - Our Algorithm with an approximate solution done in: 22442.26312637329 milliseconds
+2026-04-22 00:45:36,447 - INFO - ca-citeseer: Vertex Cover Size 129274
+2026-04-22 00:45:36,577 - INFO - Parsing the Input File started
+2026-04-22 00:46:55,807 - INFO - Parsing the Input File done in: 79228.31225395203 milliseconds
+2026-04-22 00:46:55,807 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:59:32,801 - INFO - Our Algorithm with an approximate solution done in: 756988.1956577301 milliseconds
+2026-04-22 00:59:32,810 - INFO - ca-coauthors-dblp: Vertex Cover Size 472272
+2026-04-22 00:59:39,065 - INFO - Parsing the Input File started
+2026-04-22 00:59:39,924 - INFO - Parsing the Input File done in: 857.3732376098633 milliseconds
+2026-04-22 00:59:39,924 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:59:43,941 - INFO - Our Algorithm with an approximate solution done in: 4016.6404247283936 milliseconds
+2026-04-22 00:59:43,941 - INFO - ca-CondMat: Vertex Cover Size 12500
+2026-04-22 00:59:43,981 - INFO - Parsing the Input File started
+2026-04-22 00:59:44,092 - INFO - Parsing the Input File done in: 111.03153228759766 milliseconds
+2026-04-22 00:59:44,092 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 00:59:44,171 - INFO - Our Algorithm with an approximate solution done in: 79.10799980163574 milliseconds
+2026-04-22 00:59:44,171 - INFO - ca-CSphd: Vertex Cover Size 553
+2026-04-22 00:59:44,172 - INFO - Parsing the Input File started
+2026-04-22 00:59:48,599 - INFO - Parsing the Input File done in: 4425.566673278809 milliseconds
+2026-04-22 00:59:48,599 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:00:17,426 - INFO - Our Algorithm with an approximate solution done in: 28827.235460281372 milliseconds
+2026-04-22 01:00:17,426 - INFO - ca-dblp-2010: Vertex Cover Size 122072
+2026-04-22 01:00:17,596 - INFO - Parsing the Input File started
+2026-04-22 01:00:24,296 - INFO - Parsing the Input File done in: 6700.505018234253 milliseconds
+2026-04-22 01:00:24,296 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:00:55,797 - INFO - Our Algorithm with an approximate solution done in: 31501.1727809906 milliseconds
+2026-04-22 01:00:55,798 - INFO - ca-dblp-2012: Vertex Cover Size 165085
+2026-04-22 01:00:56,067 - INFO - Parsing the Input File started
+2026-04-22 01:00:56,198 - INFO - Parsing the Input File done in: 131.22129440307617 milliseconds
+2026-04-22 01:00:56,198 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:00:56,342 - INFO - Our Algorithm with an approximate solution done in: 142.11416244506836 milliseconds
+2026-04-22 01:00:56,342 - INFO - ca-Erdos992: Vertex Cover Size 461
+2026-04-22 01:00:56,345 - INFO - Parsing the Input File started
+2026-04-22 01:00:56,414 - INFO - Parsing the Input File done in: 68.60136985778809 milliseconds
+2026-04-22 01:00:56,414 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:00:56,668 - INFO - Our Algorithm with an approximate solution done in: 254.4269561767578 milliseconds
+2026-04-22 01:00:56,668 - INFO - ca-GrQc: Vertex Cover Size 2213
+2026-04-22 01:00:56,672 - INFO - Parsing the Input File started
+2026-04-22 01:00:57,199 - INFO - Parsing the Input File done in: 526.2813568115234 milliseconds
+2026-04-22 01:00:57,199 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:01:47,135 - INFO - Our Algorithm with an approximate solution done in: 49936.46836280823 milliseconds
+2026-04-22 01:01:47,137 - INFO - ca-HepPh: Vertex Cover Size 6568
+2026-04-22 01:01:47,196 - INFO - Parsing the Input File started
+2026-04-22 01:01:52,728 - INFO - Parsing the Input File done in: 5531.85248374939 milliseconds
+2026-04-22 01:01:52,728 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:34,175 - INFO - Our Algorithm with an approximate solution done in: 41446.887254714966 milliseconds
+2026-04-22 01:02:34,175 - INFO - ca-MathSciNet: Vertex Cover Size 140428
+2026-04-22 01:02:34,435 - INFO - Parsing the Input File started
+2026-04-22 01:02:34,551 - INFO - Parsing the Input File done in: 115.42558670043945 milliseconds
+2026-04-22 01:02:34,551 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:34,595 - INFO - Our Algorithm with an approximate solution done in: 40.09437561035156 milliseconds
+2026-04-22 01:02:34,595 - INFO - ca-netscience: Vertex Cover Size 214
+2026-04-22 01:02:34,595 - INFO - Parsing the Input File started
+2026-04-22 01:02:34,833 - INFO - Parsing the Input File done in: 237.08343505859375 milliseconds
+2026-04-22 01:02:34,833 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:36,330 - INFO - Our Algorithm with an approximate solution done in: 1497.4944591522217 milliseconds
+2026-04-22 01:02:36,330 - INFO - ia-email-EU: Vertex Cover Size 820
+2026-04-22 01:02:36,340 - INFO - Parsing the Input File started
+2026-04-22 01:02:36,491 - INFO - Parsing the Input File done in: 150.93708038330078 milliseconds
+2026-04-22 01:02:36,491 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:36,616 - INFO - Our Algorithm with an approximate solution done in: 124.42708015441895 milliseconds
+2026-04-22 01:02:36,616 - INFO - ia-email-univ: Vertex Cover Size 609
+2026-04-22 01:02:36,616 - INFO - Parsing the Input File started
+2026-04-22 01:02:40,578 - INFO - Parsing the Input File done in: 3962.455987930298 milliseconds
+2026-04-22 01:02:40,578 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,094 - INFO - Our Algorithm with an approximate solution done in: 6516.289472579956 milliseconds
+2026-04-22 01:02:47,094 - INFO - ia-enron-large: Vertex Cover Size 12820
+2026-04-22 01:02:47,136 - INFO - Parsing the Input File started
+2026-04-22 01:02:47,241 - INFO - Parsing the Input File done in: 105.6678295135498 milliseconds
+2026-04-22 01:02:47,241 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,262 - INFO - Our Algorithm with an approximate solution done in: 20.951509475708008 milliseconds
+2026-04-22 01:02:47,262 - INFO - ia-enron-only: Vertex Cover Size 87
+2026-04-22 01:02:47,267 - INFO - Parsing the Input File started
+2026-04-22 01:02:47,340 - INFO - Parsing the Input File done in: 73.71020317077637 milliseconds
+2026-04-22 01:02:47,340 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,452 - INFO - Our Algorithm with an approximate solution done in: 111.63783073425293 milliseconds
+2026-04-22 01:02:47,452 - INFO - ia-fb-messages: Vertex Cover Size 593
+2026-04-22 01:02:47,452 - INFO - Parsing the Input File started
+2026-04-22 01:02:47,498 - INFO - Parsing the Input File done in: 46.245574951171875 milliseconds
+2026-04-22 01:02:47,498 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,545 - INFO - Our Algorithm with an approximate solution done in: 47.29437828063965 milliseconds
+2026-04-22 01:02:47,545 - INFO - ia-infect-dublin: Vertex Cover Size 295
+2026-04-22 01:02:47,545 - INFO - Parsing the Input File started
+2026-04-22 01:02:47,572 - INFO - Parsing the Input File done in: 26.471853256225586 milliseconds
+2026-04-22 01:02:47,572 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,632 - INFO - Our Algorithm with an approximate solution done in: 60.312747955322266 milliseconds
+2026-04-22 01:02:47,632 - INFO - ia-infect-hyper: Vertex Cover Size 93
+2026-04-22 01:02:47,632 - INFO - Parsing the Input File started
+2026-04-22 01:02:47,692 - INFO - Parsing the Input File done in: 60.06026268005371 milliseconds
+2026-04-22 01:02:47,692 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:02:47,816 - INFO - Our Algorithm with an approximate solution done in: 123.24190139770508 milliseconds
+2026-04-22 01:02:47,816 - INFO - ia-reality: Vertex Cover Size 81
+2026-04-22 01:02:47,820 - INFO - Parsing the Input File started
+2026-04-22 01:02:50,635 - INFO - Parsing the Input File done in: 2814.2480850219727 milliseconds
+2026-04-22 01:02:50,635 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:03:07,152 - INFO - Our Algorithm with an approximate solution done in: 16516.223192214966 milliseconds
+2026-04-22 01:03:07,152 - INFO - ia-wiki-Talk: Vertex Cover Size 17407
+2026-04-22 01:03:07,280 - INFO - Parsing the Input File started
+2026-04-22 01:03:07,467 - INFO - Parsing the Input File done in: 186.97142601013184 milliseconds
+2026-04-22 01:03:07,467 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:03:07,759 - INFO - Our Algorithm with an approximate solution done in: 291.86367988586426 milliseconds
+2026-04-22 01:03:07,759 - INFO - inf-power: Vertex Cover Size 2267
+2026-04-22 01:03:07,763 - INFO - Parsing the Input File started
+2026-04-22 01:03:32,633 - INFO - Parsing the Input File done in: 24869.678497314453 milliseconds
+2026-04-22 01:03:32,637 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:05:35,133 - INFO - Our Algorithm with an approximate solution done in: 122495.7332611084 milliseconds
+2026-04-22 01:05:35,133 - INFO - inf-roadNet-CA: Vertex Cover Size 1058991
+2026-04-22 01:05:35,536 - INFO - Parsing the Input File started
+2026-04-22 01:05:42,895 - INFO - Parsing the Input File done in: 7359.816551208496 milliseconds
+2026-04-22 01:05:42,895 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:06:55,658 - INFO - Our Algorithm with an approximate solution done in: 72762.17007637024 milliseconds
+2026-04-22 01:06:55,658 - INFO - inf-roadNet-PA: Vertex Cover Size 587209
+2026-04-22 01:06:55,991 - INFO - Parsing the Input File started
+2026-04-22 01:06:56,995 - INFO - Parsing the Input File done in: 1004.1062831878662 milliseconds
+2026-04-22 01:06:56,995 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:07:02,350 - INFO - Our Algorithm with an approximate solution done in: 5355.515956878662 milliseconds
+2026-04-22 01:07:02,350 - INFO - rec-amazon: Vertex Cover Size 48622
+2026-04-22 01:07:02,392 - INFO - Parsing the Input File started
+2026-04-22 01:07:02,494 - INFO - Parsing the Input File done in: 101.85456275939941 milliseconds
+2026-04-22 01:07:02,497 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:07:02,502 - INFO - Our Algorithm with an approximate solution done in: 5.157709121704102 milliseconds
+2026-04-22 01:07:02,502 - INFO - rt-retweet: Vertex Cover Size 32
+2026-04-22 01:07:02,502 - INFO - Parsing the Input File started
+2026-04-22 01:07:25,354 - INFO - Parsing the Input File done in: 22852.11420059204 milliseconds
+2026-04-22 01:07:25,354 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:09:49,170 - INFO - Our Algorithm with an approximate solution done in: 143815.85788726807 milliseconds
+2026-04-22 01:09:49,170 - INFO - rt-retweet-crawl: Vertex Cover Size 81211
+2026-04-22 01:09:49,956 - INFO - Parsing the Input File started
+2026-04-22 01:09:50,103 - INFO - Parsing the Input File done in: 147.67742156982422 milliseconds
+2026-04-22 01:09:50,103 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:09:50,146 - INFO - Our Algorithm with an approximate solution done in: 42.870283126831055 milliseconds
+2026-04-22 01:09:50,146 - INFO - rt-twitter-copen: Vertex Cover Size 238
+2026-04-22 01:09:50,146 - INFO - Parsing the Input File started
+2026-04-22 01:10:37,469 - INFO - Parsing the Input File done in: 47322.60608673096 milliseconds
+2026-04-22 01:10:37,469 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:17:17,572 - INFO - Our Algorithm with an approximate solution done in: 400102.19383239746 milliseconds
+2026-04-22 01:17:17,572 - INFO - sc-msdoor: Vertex Cover Size 382184
+2026-04-22 01:17:19,276 - INFO - Parsing the Input File started
+2026-04-22 01:17:25,509 - INFO - Parsing the Input File done in: 6232.416391372681 milliseconds
+2026-04-22 01:17:25,509 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:18:30,623 - INFO - Our Algorithm with an approximate solution done in: 65112.90454864502 milliseconds
+2026-04-22 01:18:30,623 - INFO - sc-nasasrb: Vertex Cover Size 51559
+2026-04-22 01:18:30,866 - INFO - Parsing the Input File started
+2026-04-22 01:18:45,060 - INFO - Parsing the Input File done in: 14193.164110183716 milliseconds
+2026-04-22 01:18:45,062 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:20:36,281 - INFO - Our Algorithm with an approximate solution done in: 111218.75476837158 milliseconds
+2026-04-22 01:20:36,282 - INFO - sc-pkustk11: Vertex Cover Size 84149
+2026-04-22 01:20:36,578 - INFO - Parsing the Input File started
+2026-04-22 01:20:51,600 - INFO - Parsing the Input File done in: 15022.454500198364 milliseconds
+2026-04-22 01:20:51,600 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:22:56,233 - INFO - Our Algorithm with an approximate solution done in: 124631.79445266724 milliseconds
+2026-04-22 01:22:56,233 - INFO - sc-pkustk13: Vertex Cover Size 89759
+2026-04-22 01:22:56,543 - INFO - Parsing the Input File started
+2026-04-22 01:23:22,627 - INFO - Parsing the Input File done in: 26082.650184631348 milliseconds
+2026-04-22 01:23:22,627 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:27:04,405 - INFO - Our Algorithm with an approximate solution done in: 221777.6699066162 milliseconds
+2026-04-22 01:27:04,406 - INFO - sc-pwtk: Vertex Cover Size 208297
+2026-04-22 01:27:05,294 - INFO - Parsing the Input File started
+2026-04-22 01:27:14,362 - INFO - Parsing the Input File done in: 9067.646503448486 milliseconds
+2026-04-22 01:27:14,362 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:28:37,285 - INFO - Our Algorithm with an approximate solution done in: 82922.17350006104 milliseconds
+2026-04-22 01:28:37,645 - INFO - sc-shipsec1: Vertex Cover Size 119415
+2026-04-22 01:28:37,982 - INFO - Parsing the Input File started
+2026-04-22 01:28:49,026 - INFO - Parsing the Input File done in: 11042.48833656311 milliseconds
+2026-04-22 01:28:49,026 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:30:28,657 - INFO - Our Algorithm with an approximate solution done in: 99631.0043334961 milliseconds
+2026-04-22 01:30:28,657 - INFO - sc-shipsec5: Vertex Cover Size 148790
+2026-04-22 01:30:29,021 - INFO - Parsing the Input File started
+2026-04-22 01:30:29,504 - INFO - Parsing the Input File done in: 482.17320442199707 milliseconds
+2026-04-22 01:30:29,504 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:30:29,701 - INFO - Our Algorithm with an approximate solution done in: 197.87120819091797 milliseconds
+2026-04-22 01:30:29,701 - INFO - scc_enron-only: Vertex Cover Size 138
+2026-04-22 01:30:29,701 - INFO - Parsing the Input File started
+2026-04-22 01:30:30,154 - INFO - Parsing the Input File done in: 452.03089714050293 milliseconds
+2026-04-22 01:30:30,156 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:30:32,112 - INFO - Our Algorithm with an approximate solution done in: 1956.8486213684082 milliseconds
+2026-04-22 01:30:32,112 - INFO - scc_fb-forum: Vertex Cover Size 372
+2026-04-22 01:30:32,127 - INFO - Parsing the Input File started
+2026-04-22 01:30:35,263 - INFO - Parsing the Input File done in: 3135.8072757720947 milliseconds
+2026-04-22 01:30:35,263 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:31:03,047 - INFO - Our Algorithm with an approximate solution done in: 27784.090995788574 milliseconds
+2026-04-22 01:31:03,047 - INFO - scc_fb-messages: Vertex Cover Size 1072
+2026-04-22 01:31:03,202 - INFO - Parsing the Input File started
+2026-04-22 01:31:04,437 - INFO - Parsing the Input File done in: 1235.1853847503662 milliseconds
+2026-04-22 01:31:04,437 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:31:13,137 - INFO - Our Algorithm with an approximate solution done in: 8700.108051300049 milliseconds
+2026-04-22 01:31:13,137 - INFO - scc_infect-dublin: Vertex Cover Size 9124
+2026-04-22 01:31:13,197 - INFO - Parsing the Input File started
+2026-04-22 01:31:13,341 - INFO - Parsing the Input File done in: 144.75631713867188 milliseconds
+2026-04-22 01:31:13,341 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:31:13,496 - INFO - Our Algorithm with an approximate solution done in: 155.01022338867188 milliseconds
+2026-04-22 01:31:13,496 - INFO - scc_infect-hyper: Vertex Cover Size 110
+2026-04-22 01:31:13,496 - INFO - Parsing the Input File started
+2026-04-22 01:31:38,920 - INFO - Parsing the Input File done in: 25423.079252243042 milliseconds
+2026-04-22 01:31:38,920 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:52,856 - INFO - Our Algorithm with an approximate solution done in: 193936.42926216125 milliseconds
+2026-04-22 01:34:52,856 - INFO - scc_reality: Vertex Cover Size 2486
+2026-04-22 01:34:53,825 - INFO - Parsing the Input File started
+2026-04-22 01:34:54,140 - INFO - Parsing the Input File done in: 315.52743911743164 milliseconds
+2026-04-22 01:34:54,140 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:55,162 - INFO - Our Algorithm with an approximate solution done in: 1021.0738182067871 milliseconds
+2026-04-22 01:34:55,162 - INFO - scc_retweet: Vertex Cover Size 564
+2026-04-22 01:34:55,172 - INFO - Parsing the Input File started
+2026-04-22 01:34:55,305 - INFO - Parsing the Input File done in: 133.26787948608398 milliseconds
+2026-04-22 01:34:55,305 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:55,797 - INFO - Our Algorithm with an approximate solution done in: 492.2175407409668 milliseconds
+2026-04-22 01:34:55,797 - INFO - scc_retweet-crawl: Vertex Cover Size 8435
+2026-04-22 01:34:55,803 - INFO - Parsing the Input File started
+2026-04-22 01:34:55,904 - INFO - Parsing the Input File done in: 100.616455078125 milliseconds
+2026-04-22 01:34:55,904 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:55,911 - INFO - Our Algorithm with an approximate solution done in: 7.551908493041992 milliseconds
+2026-04-22 01:34:55,911 - INFO - scc_rt_alwefaq: Vertex Cover Size 35
+2026-04-22 01:34:55,912 - INFO - Parsing the Input File started
+2026-04-22 01:34:55,953 - INFO - Parsing the Input File done in: 40.375709533691406 milliseconds
+2026-04-22 01:34:55,953 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:55,956 - INFO - Our Algorithm with an approximate solution done in: 3.2672882080078125 milliseconds
+2026-04-22 01:34:55,956 - INFO - scc_rt_assad: Vertex Cover Size 16
+2026-04-22 01:34:55,956 - INFO - Parsing the Input File started
+2026-04-22 01:34:55,995 - INFO - Parsing the Input File done in: 38.20347785949707 milliseconds
+2026-04-22 01:34:55,995 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:55,997 - INFO - Our Algorithm with an approximate solution done in: 2.858877182006836 milliseconds
+2026-04-22 01:34:55,997 - INFO - scc_rt_bahrain: Vertex Cover Size 37
+2026-04-22 01:34:55,998 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,038 - INFO - Parsing the Input File done in: 40.018320083618164 milliseconds
+2026-04-22 01:34:56,038 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,042 - INFO - Our Algorithm with an approximate solution done in: 3.250598907470703 milliseconds
+2026-04-22 01:34:56,044 - INFO - scc_rt_barackobama: Vertex Cover Size 29
+2026-04-22 01:34:56,044 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,052 - INFO - Parsing the Input File done in: 8.444070816040039 milliseconds
+2026-04-22 01:34:56,052 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,053 - INFO - Our Algorithm with an approximate solution done in: 1.0957717895507812 milliseconds
+2026-04-22 01:34:56,053 - INFO - scc_rt_damascus: Vertex Cover Size 15
+2026-04-22 01:34:56,053 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,062 - INFO - Parsing the Input File done in: 8.74471664428711 milliseconds
+2026-04-22 01:34:56,062 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,063 - INFO - Our Algorithm with an approximate solution done in: 1.0955333709716797 milliseconds
+2026-04-22 01:34:56,063 - INFO - scc_rt_dash: Vertex Cover Size 15
+2026-04-22 01:34:56,063 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,095 - INFO - Parsing the Input File done in: 32.50527381896973 milliseconds
+2026-04-22 01:34:56,095 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,111 - INFO - Our Algorithm with an approximate solution done in: 15.159130096435547 milliseconds
+2026-04-22 01:34:56,112 - INFO - scc_rt_gmanews: Vertex Cover Size 46
+2026-04-22 01:34:56,112 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,125 - INFO - Parsing the Input File done in: 13.4735107421875 milliseconds
+2026-04-22 01:34:56,125 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,125 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,125 - INFO - scc_rt_gop: Vertex Cover Size 6
+2026-04-22 01:34:56,126 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,165 - INFO - Parsing the Input File done in: 38.75160217285156 milliseconds
+2026-04-22 01:34:56,166 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,166 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,166 - INFO - scc_rt_http: Vertex Cover Size 2
+2026-04-22 01:34:56,167 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,177 - INFO - Parsing the Input File done in: 10.149240493774414 milliseconds
+2026-04-22 01:34:56,177 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,177 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,177 - INFO - scc_rt_israel: Vertex Cover Size 11
+2026-04-22 01:34:56,178 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,213 - INFO - Parsing the Input File done in: 34.28816795349121 milliseconds
+2026-04-22 01:34:56,213 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,218 - INFO - Our Algorithm with an approximate solution done in: 5.202531814575195 milliseconds
+2026-04-22 01:34:56,218 - INFO - scc_rt_justinbieber: Vertex Cover Size 26
+2026-04-22 01:34:56,219 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,234 - INFO - Parsing the Input File done in: 14.488458633422852 milliseconds
+2026-04-22 01:34:56,234 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,234 - INFO - Our Algorithm with an approximate solution done in: 0.5037784576416016 milliseconds
+2026-04-22 01:34:56,234 - INFO - scc_rt_ksa: Vertex Cover Size 12
+2026-04-22 01:34:56,234 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,260 - INFO - Parsing the Input File done in: 26.030302047729492 milliseconds
+2026-04-22 01:34:56,260 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,260 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,260 - INFO - scc_rt_lebanon: Vertex Cover Size 5
+2026-04-22 01:34:56,261 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,274 - INFO - Parsing the Input File done in: 12.911319732666016 milliseconds
+2026-04-22 01:34:56,274 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,276 - INFO - Our Algorithm with an approximate solution done in: 1.2946128845214844 milliseconds
+2026-04-22 01:34:56,276 - INFO - scc_rt_libya: Vertex Cover Size 12
+2026-04-22 01:34:56,277 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,321 - INFO - Parsing the Input File done in: 43.74432563781738 milliseconds
+2026-04-22 01:34:56,321 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,373 - INFO - Our Algorithm with an approximate solution done in: 52.3076057434082 milliseconds
+2026-04-22 01:34:56,373 - INFO - scc_rt_lolgop: Vertex Cover Size 103
+2026-04-22 01:34:56,375 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,396 - INFO - Parsing the Input File done in: 20.791053771972656 milliseconds
+2026-04-22 01:34:56,396 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,398 - INFO - Our Algorithm with an approximate solution done in: 1.5938282012939453 milliseconds
+2026-04-22 01:34:56,398 - INFO - scc_rt_mittromney: Vertex Cover Size 42
+2026-04-22 01:34:56,399 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,409 - INFO - Parsing the Input File done in: 10.115861892700195 milliseconds
+2026-04-22 01:34:56,409 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,409 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,409 - INFO - scc_rt_obama: Vertex Cover Size 4
+2026-04-22 01:34:56,410 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,435 - INFO - Parsing the Input File done in: 24.40786361694336 milliseconds
+2026-04-22 01:34:56,435 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,436 - INFO - Our Algorithm with an approximate solution done in: 1.1000633239746094 milliseconds
+2026-04-22 01:34:56,436 - INFO - scc_rt_occupy: Vertex Cover Size 22
+2026-04-22 01:34:56,437 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,469 - INFO - Parsing the Input File done in: 32.675981521606445 milliseconds
+2026-04-22 01:34:56,469 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,482 - INFO - Our Algorithm with an approximate solution done in: 12.117147445678711 milliseconds
+2026-04-22 01:34:56,483 - INFO - scc_rt_occupywallstnyc: Vertex Cover Size 45
+2026-04-22 01:34:56,483 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,497 - INFO - Parsing the Input File done in: 14.687061309814453 milliseconds
+2026-04-22 01:34:56,497 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,497 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,497 - INFO - scc_rt_oman: Vertex Cover Size 6
+2026-04-22 01:34:56,498 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,534 - INFO - Parsing the Input File done in: 35.334110260009766 milliseconds
+2026-04-22 01:34:56,534 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,538 - INFO - Our Algorithm with an approximate solution done in: 3.953695297241211 milliseconds
+2026-04-22 01:34:56,538 - INFO - scc_rt_onedirection: Vertex Cover Size 29
+2026-04-22 01:34:56,538 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,548 - INFO - Parsing the Input File done in: 8.972644805908203 milliseconds
+2026-04-22 01:34:56,548 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,548 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,548 - INFO - scc_rt_p2: Vertex Cover Size 12
+2026-04-22 01:34:56,549 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,559 - INFO - Parsing the Input File done in: 10.154485702514648 milliseconds
+2026-04-22 01:34:56,560 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,560 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,560 - INFO - scc_rt_qatif: Vertex Cover Size 5
+2026-04-22 01:34:56,561 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,571 - INFO - Parsing the Input File done in: 10.203123092651367 milliseconds
+2026-04-22 01:34:56,572 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,573 - INFO - Our Algorithm with an approximate solution done in: 0.9984970092773438 milliseconds
+2026-04-22 01:34:56,573 - INFO - scc_rt_saudi: Vertex Cover Size 17
+2026-04-22 01:34:56,573 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,587 - INFO - Parsing the Input File done in: 14.366865158081055 milliseconds
+2026-04-22 01:34:56,587 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,589 - INFO - Our Algorithm with an approximate solution done in: 1.0218620300292969 milliseconds
+2026-04-22 01:34:56,589 - INFO - scc_rt_tcot: Vertex Cover Size 12
+2026-04-22 01:34:56,590 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,598 - INFO - Parsing the Input File done in: 8.915185928344727 milliseconds
+2026-04-22 01:34:56,598 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,599 - INFO - Our Algorithm with an approximate solution done in: 0.6172657012939453 milliseconds
+2026-04-22 01:34:56,599 - INFO - scc_rt_tlot: Vertex Cover Size 6
+2026-04-22 01:34:56,600 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,611 - INFO - Parsing the Input File done in: 11.098384857177734 milliseconds
+2026-04-22 01:34:56,611 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,612 - INFO - Our Algorithm with an approximate solution done in: 1.0135173797607422 milliseconds
+2026-04-22 01:34:56,612 - INFO - scc_rt_uae: Vertex Cover Size 8
+2026-04-22 01:34:56,612 - INFO - Parsing the Input File started
+2026-04-22 01:34:56,623 - INFO - Parsing the Input File done in: 10.469913482666016 milliseconds
+2026-04-22 01:34:56,623 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:34:56,623 - INFO - Our Algorithm with an approximate solution done in: 0.0 milliseconds
+2026-04-22 01:34:56,623 - INFO - scc_rt_voteonedirection: Vertex Cover Size 4
+2026-04-22 01:34:56,624 - INFO - Parsing the Input File started
+2026-04-22 01:34:58,041 - INFO - Parsing the Input File done in: 1416.6109561920166 milliseconds
+2026-04-22 01:34:58,042 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:35:18,278 - INFO - Our Algorithm with an approximate solution done in: 20235.719680786133 milliseconds
+2026-04-22 01:35:18,279 - INFO - scc_twitter-copen: Vertex Cover Size 1328
+2026-04-22 01:35:18,361 - INFO - Parsing the Input File started
+2026-04-22 01:35:25,449 - INFO - Parsing the Input File done in: 7087.984323501587 milliseconds
+2026-04-22 01:35:25,449 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:36:34,541 - INFO - Our Algorithm with an approximate solution done in: 69092.3821926117 milliseconds
+2026-04-22 01:36:34,541 - INFO - soc-BlogCatalog: Vertex Cover Size 20967
+2026-04-22 01:36:34,972 - INFO - Parsing the Input File started
+2026-04-22 01:36:35,668 - INFO - Parsing the Input File done in: 695.3473091125488 milliseconds
+2026-04-22 01:36:35,668 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:36:45,972 - INFO - Our Algorithm with an approximate solution done in: 10304.437637329102 milliseconds
+2026-04-22 01:36:45,972 - INFO - soc-brightkite: Vertex Cover Size 21473
+2026-04-22 01:36:46,018 - INFO - Parsing the Input File started
+2026-04-22 01:36:56,132 - INFO - Parsing the Input File done in: 10113.560914993286 milliseconds
+2026-04-22 01:36:56,132 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:38:29,770 - INFO - Our Algorithm with an approximate solution done in: 93637.770652771 milliseconds
+2026-04-22 01:38:29,770 - INFO - soc-buzznet: Vertex Cover Size 31059
+2026-04-22 01:38:30,298 - INFO - Parsing the Input File started
+2026-04-22 01:38:35,205 - INFO - Parsing the Input File done in: 4907.11522102356 milliseconds
+2026-04-22 01:38:35,205 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:39:23,503 - INFO - Our Algorithm with an approximate solution done in: 48297.65200614929 milliseconds
+2026-04-22 01:39:23,503 - INFO - soc-delicious: Vertex Cover Size 86810
+2026-04-22 01:39:23,799 - INFO - Parsing the Input File started
+2026-04-22 01:39:49,765 - INFO - Parsing the Input File done in: 25966.74942970276 milliseconds
+2026-04-22 01:39:49,765 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:43:27,628 - INFO - Our Algorithm with an approximate solution done in: 217862.7154827118 milliseconds
+2026-04-22 01:43:27,628 - INFO - soc-digg: Vertex Cover Size 104237
+2026-04-22 01:43:29,133 - INFO - Parsing the Input File started
+2026-04-22 01:43:29,523 - INFO - Parsing the Input File done in: 389.68920707702637 milliseconds
+2026-04-22 01:43:29,523 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:43:29,526 - INFO - Our Algorithm with an approximate solution done in: 3.19671630859375 milliseconds
+2026-04-22 01:43:29,526 - INFO - soc-dolphins: Vertex Cover Size 35
+2026-04-22 01:43:29,526 - INFO - Parsing the Input File started
+2026-04-22 01:43:30,673 - INFO - Parsing the Input File done in: 1146.8358039855957 milliseconds
+2026-04-22 01:43:30,673 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:43:54,741 - INFO - Our Algorithm with an approximate solution done in: 24068.030834197998 milliseconds
+2026-04-22 01:43:54,741 - INFO - soc-douban: Vertex Cover Size 8685
+2026-04-22 01:43:54,813 - INFO - Parsing the Input File started
+2026-04-22 01:43:55,264 - INFO - Parsing the Input File done in: 450.7474899291992 milliseconds
+2026-04-22 01:43:55,264 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:43:58,355 - INFO - Our Algorithm with an approximate solution done in: 3091.5379524230957 milliseconds
+2026-04-22 01:43:58,355 - INFO - soc-epinions: Vertex Cover Size 9858
+2026-04-22 01:43:58,376 - INFO - Parsing the Input File started
+2026-04-22 01:44:11,014 - INFO - Parsing the Input File done in: 12637.999534606934 milliseconds
+2026-04-22 01:44:11,014 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:45:58,850 - INFO - Our Algorithm with an approximate solution done in: 107835.90817451477 milliseconds
+2026-04-22 01:45:58,850 - INFO - soc-flickr: Vertex Cover Size 154387
+2026-04-22 01:45:59,473 - INFO - Parsing the Input File started
+2026-04-22 01:46:39,435 - INFO - Parsing the Input File done in: 39961.960315704346 milliseconds
+2026-04-22 01:46:39,435 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:51:23,031 - INFO - Our Algorithm with an approximate solution done in: 283595.4692363739 milliseconds
+2026-04-22 01:51:23,031 - INFO - soc-flixster: Vertex Cover Size 96404
+2026-04-22 01:51:25,249 - INFO - Parsing the Input File started
+2026-04-22 01:51:36,454 - INFO - Parsing the Input File done in: 11204.943180084229 milliseconds
+2026-04-22 01:51:36,454 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:53:44,346 - INFO - Our Algorithm with an approximate solution done in: 127892.65370368958 milliseconds
+2026-04-22 01:53:44,346 - INFO - soc-FourSquare: Vertex Cover Size 90524
+2026-04-22 01:53:45,082 - INFO - Parsing the Input File started
+2026-04-22 01:53:48,729 - INFO - Parsing the Input File done in: 3647.3705768585205 milliseconds
+2026-04-22 01:53:48,729 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:54:24,037 - INFO - Our Algorithm with an approximate solution done in: 35308.37273597717 milliseconds
+2026-04-22 01:54:24,037 - INFO - soc-gowalla: Vertex Cover Size 85360
+2026-04-22 01:54:24,269 - INFO - Parsing the Input File started
+2026-04-22 01:54:24,287 - INFO - Parsing the Input File done in: 17.793893814086914 milliseconds
+2026-04-22 01:54:24,287 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:54:24,288 - INFO - Our Algorithm with an approximate solution done in: 1.1065006256103516 milliseconds
+2026-04-22 01:54:24,288 - INFO - soc-karate: Vertex Cover Size 14
+2026-04-22 01:54:24,289 - INFO - Parsing the Input File started
+2026-04-22 01:54:45,434 - INFO - Parsing the Input File done in: 21145.285844802856 milliseconds
+2026-04-22 01:54:45,434 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:57:30,114 - INFO - Our Algorithm with an approximate solution done in: 164679.90159988403 milliseconds
+2026-04-22 01:57:30,114 - INFO - soc-lastfm: Vertex Cover Size 78832
+2026-04-22 01:57:31,149 - INFO - Parsing the Input File started
+2026-04-22 01:57:39,189 - INFO - Parsing the Input File done in: 8040.3892993927 milliseconds
+2026-04-22 01:57:39,189 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:58:59,086 - INFO - Our Algorithm with an approximate solution done in: 79896.67177200317 milliseconds
+2026-04-22 01:58:59,090 - INFO - soc-LiveMocha: Vertex Cover Size 44146
+2026-04-22 01:58:59,543 - INFO - Parsing the Input File started
+2026-04-22 01:59:00,861 - INFO - Parsing the Input File done in: 1318.3796405792236 milliseconds
+2026-04-22 01:59:00,861 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:59:16,931 - INFO - Our Algorithm with an approximate solution done in: 16069.658756256104 milliseconds
+2026-04-22 01:59:16,931 - INFO - soc-slashdot: Vertex Cover Size 22632
+2026-04-22 01:59:17,016 - INFO - Parsing the Input File started
+2026-04-22 01:59:21,389 - INFO - Parsing the Input File done in: 4373.138666152954 milliseconds
+2026-04-22 01:59:21,389 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:59:45,731 - INFO - Our Algorithm with an approximate solution done in: 24341.914653778076 milliseconds
+2026-04-22 01:59:45,731 - INFO - soc-twitter-follows: Vertex Cover Size 2323
+2026-04-22 01:59:45,891 - INFO - Parsing the Input File started
+2026-04-22 01:59:46,286 - INFO - Parsing the Input File done in: 394.8848247528076 milliseconds
+2026-04-22 01:59:46,286 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 01:59:46,326 - INFO - Our Algorithm with an approximate solution done in: 39.77775573730469 milliseconds
+2026-04-22 01:59:46,326 - INFO - soc-wiki-Vote: Vertex Cover Size 410
+2026-04-22 01:59:46,326 - INFO - Parsing the Input File started
+2026-04-22 01:59:56,236 - INFO - Parsing the Input File done in: 9910.276889801025 milliseconds
+2026-04-22 01:59:56,236 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:01:01,146 - INFO - Our Algorithm with an approximate solution done in: 64910.25161743164 milliseconds
+2026-04-22 02:01:01,146 - INFO - soc-youtube: Vertex Cover Size 148135
+2026-04-22 02:01:01,539 - INFO - Parsing the Input File started
+2026-04-22 02:01:20,706 - INFO - Parsing the Input File done in: 19167.012691497803 milliseconds
+2026-04-22 02:01:20,706 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:03:01,520 - INFO - Our Algorithm with an approximate solution done in: 100814.46027755737 milliseconds
+2026-04-22 02:03:01,520 - INFO - soc-youtube-snap: Vertex Cover Size 279062
+2026-04-22 02:03:02,231 - INFO - Parsing the Input File started
+2026-04-22 02:03:05,400 - INFO - Parsing the Input File done in: 3168.3874130249023 milliseconds
+2026-04-22 02:03:05,400 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:03:40,501 - INFO - Our Algorithm with an approximate solution done in: 35101.10306739807 milliseconds
+2026-04-22 02:03:40,501 - INFO - socfb-Berkeley13: Vertex Cover Size 17487
+2026-04-22 02:03:40,661 - INFO - Parsing the Input File started
+2026-04-22 02:03:41,759 - INFO - Parsing the Input File done in: 1098.4838008880615 milliseconds
+2026-04-22 02:03:41,759 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:03:50,206 - INFO - Our Algorithm with an approximate solution done in: 8446.450233459473 milliseconds
+2026-04-22 02:03:50,206 - INFO - socfb-CMU: Vertex Cover Size 5061
+2026-04-22 02:03:50,252 - INFO - Parsing the Input File started
+2026-04-22 02:03:51,856 - INFO - Parsing the Input File done in: 1604.316234588623 milliseconds
+2026-04-22 02:03:51,856 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:04:06,919 - INFO - Our Algorithm with an approximate solution done in: 15063.12608718872 milliseconds
+2026-04-22 02:04:06,919 - INFO - socfb-Duke14: Vertex Cover Size 7790
+2026-04-22 02:04:06,990 - INFO - Parsing the Input File started
+2026-04-22 02:04:12,720 - INFO - Parsing the Input File done in: 5724.049806594849 milliseconds
+2026-04-22 02:04:12,720 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:04:56,765 - INFO - Our Algorithm with an approximate solution done in: 44045.58873176575 milliseconds
+2026-04-22 02:04:56,765 - INFO - socfb-Indiana: Vertex Cover Size 23741
+2026-04-22 02:04:56,976 - INFO - Parsing the Input File started
+2026-04-22 02:04:58,131 - INFO - Parsing the Input File done in: 1154.799461364746 milliseconds
+2026-04-22 02:04:58,131 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:05:06,386 - INFO - Our Algorithm with an approximate solution done in: 8255.319356918335 milliseconds
+2026-04-22 02:05:06,386 - INFO - socfb-MIT: Vertex Cover Size 4726
+2026-04-22 02:05:06,458 - INFO - Parsing the Input File started
+2026-04-22 02:05:10,051 - INFO - Parsing the Input File done in: 3593.3613777160645 milliseconds
+2026-04-22 02:05:10,051 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:05:35,731 - INFO - Our Algorithm with an approximate solution done in: 25679.819345474243 milliseconds
+2026-04-22 02:05:35,731 - INFO - socfb-OR: Vertex Cover Size 37209
+2026-04-22 02:05:35,876 - INFO - Parsing the Input File started
+2026-04-22 02:05:40,547 - INFO - Parsing the Input File done in: 4671.3151931762695 milliseconds
+2026-04-22 02:05:40,547 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:06:28,696 - INFO - Our Algorithm with an approximate solution done in: 48148.611068725586 milliseconds
+2026-04-22 02:06:28,701 - INFO - socfb-Penn94: Vertex Cover Size 31723
+2026-04-22 02:06:28,936 - INFO - Parsing the Input File started
+2026-04-22 02:06:31,126 - INFO - Parsing the Input File done in: 2190.1609897613525 milliseconds
+2026-04-22 02:06:31,126 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:06:50,196 - INFO - Our Algorithm with an approximate solution done in: 19069.99683380127 milliseconds
+2026-04-22 02:06:50,196 - INFO - socfb-Stanford3: Vertex Cover Size 8611
+2026-04-22 02:06:50,301 - INFO - Parsing the Input File started
+2026-04-22 02:06:55,859 - INFO - Parsing the Input File done in: 5557.862997055054 milliseconds
+2026-04-22 02:06:55,864 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:07:51,029 - INFO - Our Algorithm with an approximate solution done in: 55165.47417640686 milliseconds
+2026-04-22 02:07:51,029 - INFO - socfb-Texas84: Vertex Cover Size 28669
+2026-04-22 02:07:51,297 - INFO - Parsing the Input File started
+2026-04-22 02:07:54,091 - INFO - Parsing the Input File done in: 2793.935537338257 milliseconds
+2026-04-22 02:07:54,091 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:08:19,044 - INFO - Our Algorithm with an approximate solution done in: 24952.80146598816 milliseconds
+2026-04-22 02:08:19,044 - INFO - socfb-UCLA: Vertex Cover Size 15494
+2026-04-22 02:08:19,183 - INFO - Parsing the Input File started
+2026-04-22 02:08:21,249 - INFO - Parsing the Input File done in: 2065.215826034546 milliseconds
+2026-04-22 02:08:21,249 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:08:40,198 - INFO - Our Algorithm with an approximate solution done in: 18949.684143066406 milliseconds
+2026-04-22 02:08:40,198 - INFO - socfb-UConn: Vertex Cover Size 13436
+2026-04-22 02:08:40,303 - INFO - Parsing the Input File started
+2026-04-22 02:08:41,983 - INFO - Parsing the Input File done in: 1679.577350616455 milliseconds
+2026-04-22 02:08:41,983 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:08:56,045 - INFO - Our Algorithm with an approximate solution done in: 14062.35122680664 milliseconds
+2026-04-22 02:08:56,045 - INFO - socfb-UCSB37: Vertex Cover Size 11481
+2026-04-22 02:08:56,134 - INFO - Parsing the Input File started
+2026-04-22 02:09:01,121 - INFO - Parsing the Input File done in: 4987.322568893433 milliseconds
+2026-04-22 02:09:01,121 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:09:53,149 - INFO - Our Algorithm with an approximate solution done in: 52027.639389038086 milliseconds
+2026-04-22 02:09:53,149 - INFO - socfb-UF: Vertex Cover Size 27775
+2026-04-22 02:09:53,379 - INFO - Parsing the Input File started
+2026-04-22 02:09:57,922 - INFO - Parsing the Input File done in: 4543.084383010864 milliseconds
+2026-04-22 02:09:57,922 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:10:38,909 - INFO - Our Algorithm with an approximate solution done in: 40986.96827888489 milliseconds
+2026-04-22 02:10:38,909 - INFO - socfb-UIllinois: Vertex Cover Size 24465
+2026-04-22 02:10:39,119 - INFO - Parsing the Input File started
+2026-04-22 02:10:42,213 - INFO - Parsing the Input File done in: 3089.8690223693848 milliseconds
+2026-04-22 02:10:42,213 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:11:11,168 - INFO - Our Algorithm with an approximate solution done in: 28954.952239990234 milliseconds
+2026-04-22 02:11:11,168 - INFO - socfb-Wisconsin87: Vertex Cover Size 18716
+2026-04-22 02:11:11,319 - INFO - Parsing the Input File started
+2026-04-22 02:11:12,153 - INFO - Parsing the Input File done in: 834.3415260314941 milliseconds
+2026-04-22 02:11:12,153 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:11:13,224 - INFO - Our Algorithm with an approximate solution done in: 1070.6326961517334 milliseconds
+2026-04-22 02:11:13,224 - INFO - tech-as-caida2007: Vertex Cover Size 3699
+2026-04-22 02:11:13,228 - INFO - Parsing the Input File started
+2026-04-22 02:11:55,844 - INFO - Parsing the Input File done in: 42615.407943725586 milliseconds
+2026-04-22 02:11:55,844 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:00,918 - INFO - Our Algorithm with an approximate solution done in: 365073.85897636414 milliseconds
+2026-04-22 02:18:00,918 - INFO - tech-as-skitter: Vertex Cover Size 529662
+2026-04-22 02:18:02,839 - INFO - Parsing the Input File started
+2026-04-22 02:18:03,547 - INFO - Parsing the Input File done in: 707.4263095855713 milliseconds
+2026-04-22 02:18:03,547 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:05,356 - INFO - Our Algorithm with an approximate solution done in: 1809.6973896026611 milliseconds
+2026-04-22 02:18:05,361 - INFO - tech-internet-as: Vertex Cover Size 5718
+2026-04-22 02:18:05,376 - INFO - Parsing the Input File started
+2026-04-22 02:18:05,916 - INFO - Parsing the Input File done in: 539.8421287536621 milliseconds
+2026-04-22 02:18:05,916 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:09,441 - INFO - Our Algorithm with an approximate solution done in: 3525.291919708252 milliseconds
+2026-04-22 02:18:09,441 - INFO - tech-p2p-gnutella: Vertex Cover Size 15730
+2026-04-22 02:18:09,471 - INFO - Parsing the Input File started
+2026-04-22 02:18:11,651 - INFO - Parsing the Input File done in: 2179.8386573791504 milliseconds
+2026-04-22 02:18:11,651 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:26,337 - INFO - Our Algorithm with an approximate solution done in: 14685.460329055786 milliseconds
+2026-04-22 02:18:26,337 - INFO - tech-RL-caida: Vertex Cover Size 75568
+2026-04-22 02:18:26,469 - INFO - Parsing the Input File started
+2026-04-22 02:18:26,617 - INFO - Parsing the Input File done in: 147.97186851501465 milliseconds
+2026-04-22 02:18:26,617 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:26,711 - INFO - Our Algorithm with an approximate solution done in: 94.72346305847168 milliseconds
+2026-04-22 02:18:26,711 - INFO - tech-routers-rf: Vertex Cover Size 801
+2026-04-22 02:18:26,716 - INFO - Parsing the Input File started
+2026-04-22 02:18:26,917 - INFO - Parsing the Input File done in: 200.1955509185791 milliseconds
+2026-04-22 02:18:26,917 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:18:27,881 - INFO - Our Algorithm with an approximate solution done in: 964.4777774810791 milliseconds
+2026-04-22 02:18:27,881 - INFO - tech-WHOIS: Vertex Cover Size 2297
+2026-04-22 02:18:27,891 - INFO - Parsing the Input File started
+2026-04-22 02:18:32,835 - INFO - Parsing the Input File done in: 4943.798542022705 milliseconds
+2026-04-22 02:18:32,836 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:19:35,511 - INFO - Our Algorithm with an approximate solution done in: 62674.91149902344 milliseconds
+2026-04-22 02:19:35,511 - INFO - web-arabic-2005: Vertex Cover Size 115297
+2026-04-22 02:19:35,677 - INFO - Parsing the Input File started
+2026-04-22 02:19:35,895 - INFO - Parsing the Input File done in: 218.9035415649414 milliseconds
+2026-04-22 02:19:35,895 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:19:36,231 - INFO - Our Algorithm with an approximate solution done in: 335.95919609069824 milliseconds
+2026-04-22 02:19:36,231 - INFO - web-BerkStan: Vertex Cover Size 5404
+2026-04-22 02:19:36,237 - INFO - Parsing the Input File started
+2026-04-22 02:19:36,381 - INFO - Parsing the Input File done in: 144.47927474975586 milliseconds
+2026-04-22 02:19:36,381 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:19:36,472 - INFO - Our Algorithm with an approximate solution done in: 90.40999412536621 milliseconds
+2026-04-22 02:19:36,472 - INFO - web-edu: Vertex Cover Size 1451
+2026-04-22 02:19:36,476 - INFO - Parsing the Input File started
+2026-04-22 02:19:36,521 - INFO - Parsing the Input File done in: 44.95859146118164 milliseconds
+2026-04-22 02:19:36,521 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:19:36,562 - INFO - Our Algorithm with an approximate solution done in: 40.33327102661133 milliseconds
+2026-04-22 02:19:36,562 - INFO - web-google: Vertex Cover Size 498
+2026-04-22 02:19:36,562 - INFO - Parsing the Input File started
+2026-04-22 02:19:36,767 - INFO - Parsing the Input File done in: 205.0783634185791 milliseconds
+2026-04-22 02:19:36,767 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:19:37,545 - INFO - Our Algorithm with an approximate solution done in: 778.724193572998 milliseconds
+2026-04-22 02:19:37,545 - INFO - web-indochina-2004: Vertex Cover Size 7363
+2026-04-22 02:19:37,551 - INFO - Parsing the Input File started
+2026-04-22 02:19:57,201 - INFO - Parsing the Input File done in: 19649.812698364258 milliseconds
+2026-04-22 02:19:57,201 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:22:59,186 - INFO - Our Algorithm with an approximate solution done in: 181985.02135276794 milliseconds
+2026-04-22 02:22:59,186 - INFO - web-it-2004: Vertex Cover Size 415230
+2026-04-22 02:22:59,891 - INFO - Parsing the Input File started
+2026-04-22 02:23:00,391 - INFO - Parsing the Input File done in: 499.94397163391113 milliseconds
+2026-04-22 02:23:00,391 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:23:00,419 - INFO - Our Algorithm with an approximate solution done in: 28.182268142700195 milliseconds
+2026-04-22 02:23:00,419 - INFO - web-polblogs: Vertex Cover Size 245
+2026-04-22 02:23:00,421 - INFO - Parsing the Input File started
+2026-04-22 02:23:01,491 - INFO - Parsing the Input File done in: 1069.8423385620117 milliseconds
+2026-04-22 02:23:01,491 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:23:07,810 - INFO - Our Algorithm with an approximate solution done in: 6318.755865097046 milliseconds
+2026-04-22 02:23:07,810 - INFO - web-sk-2005: Vertex Cover Size 58411
+2026-04-22 02:23:07,858 - INFO - Parsing the Input File started
+2026-04-22 02:23:08,152 - INFO - Parsing the Input File done in: 294.51656341552734 milliseconds
+2026-04-22 02:23:08,157 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:23:08,732 - INFO - Our Algorithm with an approximate solution done in: 574.6092796325684 milliseconds
+2026-04-22 02:23:08,732 - INFO - web-spam: Vertex Cover Size 2344
+2026-04-22 02:23:08,737 - INFO - Parsing the Input File started
+2026-04-22 02:23:40,782 - INFO - Parsing the Input File done in: 32044.89541053772 milliseconds
+2026-04-22 02:23:40,782 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:28:57,697 - INFO - Our Algorithm with an approximate solution done in: 316915.0369167328 milliseconds
+2026-04-22 02:28:57,697 - INFO - web-uk-2005: Vertex Cover Size 127774
+2026-04-22 02:28:58,727 - INFO - Parsing the Input File started
+2026-04-22 02:28:59,367 - INFO - Parsing the Input File done in: 640.0747299194336 milliseconds
+2026-04-22 02:28:59,367 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:28:59,792 - INFO - Our Algorithm with an approximate solution done in: 425.02784729003906 milliseconds
+2026-04-22 02:28:59,792 - INFO - web-webbase-2001: Vertex Cover Size 2665
+2026-04-22 02:28:59,797 - INFO - Parsing the Input File started
+2026-04-22 02:29:16,702 - INFO - Parsing the Input File done in: 16904.54125404358 milliseconds
+2026-04-22 02:29:16,702 - INFO - Our Algorithm with an approximate solution started
+2026-04-22 02:32:28,803 - INFO - Our Algorithm with an approximate solution done in: 192101.28569602966 milliseconds
+2026-04-22 02:32:28,803 - INFO - web-wikipedia2009: Vertex Cover Size 659409

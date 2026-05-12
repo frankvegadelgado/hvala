@@ -1,0 +1,205 @@
+2026-05-11 13:37:18,495 - INFO - Parsing the Input File started
+2026-05-11 13:37:20,164 - INFO - Parsing the Input File done in: 1668.7283515930176 milliseconds
+2026-05-11 13:37:20,164 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:37,000 - INFO - Our Algorithm with an approximate solution done in: 16836.647748947144 milliseconds
+2026-05-11 13:37:37,000 - INFO - frb100-40.mis: Vertex Cover Size 3931
+2026-05-11 13:37:37,050 - INFO - Parsing the Input File started
+2026-05-11 13:37:37,116 - INFO - Parsing the Input File done in: 51.87344551086426 milliseconds
+2026-05-11 13:37:37,116 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:37,340 - INFO - Our Algorithm with an approximate solution done in: 223.83904457092285 milliseconds
+2026-05-11 13:37:37,340 - INFO - frb30-15-1.mis: Vertex Cover Size 428
+2026-05-11 13:37:37,340 - INFO - Parsing the Input File started
+2026-05-11 13:37:37,382 - INFO - Parsing the Input File done in: 42.276859283447266 milliseconds
+2026-05-11 13:37:37,382 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:37,615 - INFO - Our Algorithm with an approximate solution done in: 232.44237899780273 milliseconds
+2026-05-11 13:37:37,615 - INFO - frb30-15-2.mis: Vertex Cover Size 429
+2026-05-11 13:37:37,615 - INFO - Parsing the Input File started
+2026-05-11 13:37:37,665 - INFO - Parsing the Input File done in: 49.79276657104492 milliseconds
+2026-05-11 13:37:37,665 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:37,882 - INFO - Our Algorithm with an approximate solution done in: 217.193603515625 milliseconds
+2026-05-11 13:37:37,882 - INFO - frb30-15-3.mis: Vertex Cover Size 427
+2026-05-11 13:37:37,882 - INFO - Parsing the Input File started
+2026-05-11 13:37:37,932 - INFO - Parsing the Input File done in: 49.80111122131348 milliseconds
+2026-05-11 13:37:37,932 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:38,152 - INFO - Our Algorithm with an approximate solution done in: 219.56157684326172 milliseconds
+2026-05-11 13:37:38,152 - INFO - frb30-15-4.mis: Vertex Cover Size 429
+2026-05-11 13:37:38,152 - INFO - Parsing the Input File started
+2026-05-11 13:37:38,207 - INFO - Parsing the Input File done in: 55.226802825927734 milliseconds
+2026-05-11 13:37:38,207 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:38,430 - INFO - Our Algorithm with an approximate solution done in: 223.5710620880127 milliseconds
+2026-05-11 13:37:38,430 - INFO - frb30-15-5.mis: Vertex Cover Size 427
+2026-05-11 13:37:38,432 - INFO - Parsing the Input File started
+2026-05-11 13:37:38,497 - INFO - Parsing the Input File done in: 65.52314758300781 milliseconds
+2026-05-11 13:37:38,497 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:40,248 - INFO - Our Algorithm with an approximate solution done in: 1750.3116130828857 milliseconds
+2026-05-11 13:37:40,248 - INFO - frb35-17-1.mis: Vertex Cover Size 569
+2026-05-11 13:37:40,262 - INFO - Parsing the Input File started
+2026-05-11 13:37:40,398 - INFO - Parsing the Input File done in: 135.4808807373047 milliseconds
+2026-05-11 13:37:40,398 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:40,812 - INFO - Our Algorithm with an approximate solution done in: 414.45422172546387 milliseconds
+2026-05-11 13:37:40,812 - INFO - frb35-17-2.mis: Vertex Cover Size 570
+2026-05-11 13:37:40,812 - INFO - Parsing the Input File started
+2026-05-11 13:37:40,895 - INFO - Parsing the Input File done in: 82.92984962463379 milliseconds
+2026-05-11 13:37:40,895 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:41,362 - INFO - Our Algorithm with an approximate solution done in: 466.4595127105713 milliseconds
+2026-05-11 13:37:41,362 - INFO - frb35-17-3.mis: Vertex Cover Size 568
+2026-05-11 13:37:41,378 - INFO - Parsing the Input File started
+2026-05-11 13:37:41,451 - INFO - Parsing the Input File done in: 72.77035713195801 milliseconds
+2026-05-11 13:37:41,451 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:41,911 - INFO - Our Algorithm with an approximate solution done in: 460.1411819458008 milliseconds
+2026-05-11 13:37:41,911 - INFO - frb35-17-4.mis: Vertex Cover Size 570
+2026-05-11 13:37:41,928 - INFO - Parsing the Input File started
+2026-05-11 13:37:41,994 - INFO - Parsing the Input File done in: 66.20264053344727 milliseconds
+2026-05-11 13:37:41,994 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:42,477 - INFO - Our Algorithm with an approximate solution done in: 482.79571533203125 milliseconds
+2026-05-11 13:37:42,477 - INFO - frb35-17-5.mis: Vertex Cover Size 568
+2026-05-11 13:37:42,477 - INFO - Parsing the Input File started
+2026-05-11 13:37:42,593 - INFO - Parsing the Input File done in: 116.18947982788086 milliseconds
+2026-05-11 13:37:42,593 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:43,326 - INFO - Our Algorithm with an approximate solution done in: 733.1638336181641 milliseconds
+2026-05-11 13:37:43,326 - INFO - frb40-19-1.mis: Vertex Cover Size 730
+2026-05-11 13:37:43,335 - INFO - Parsing the Input File started
+2026-05-11 13:37:43,442 - INFO - Parsing the Input File done in: 107.07783699035645 milliseconds
+2026-05-11 13:37:43,442 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:44,292 - INFO - Our Algorithm with an approximate solution done in: 849.2186069488525 milliseconds
+2026-05-11 13:37:44,292 - INFO - frb40-19-2.mis: Vertex Cover Size 730
+2026-05-11 13:37:44,311 - INFO - Parsing the Input File started
+2026-05-11 13:37:44,407 - INFO - Parsing the Input File done in: 96.23908996582031 milliseconds
+2026-05-11 13:37:44,407 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:45,439 - INFO - Our Algorithm with an approximate solution done in: 1031.487226486206 milliseconds
+2026-05-11 13:37:45,439 - INFO - frb40-19-3.mis: Vertex Cover Size 731
+2026-05-11 13:37:45,441 - INFO - Parsing the Input File started
+2026-05-11 13:37:45,835 - INFO - Parsing the Input File done in: 393.984317779541 milliseconds
+2026-05-11 13:37:45,836 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:48,021 - INFO - Our Algorithm with an approximate solution done in: 2185.241937637329 milliseconds
+2026-05-11 13:37:48,021 - INFO - frb40-19-4.mis: Vertex Cover Size 732
+2026-05-11 13:37:48,038 - INFO - Parsing the Input File started
+2026-05-11 13:37:48,322 - INFO - Parsing the Input File done in: 283.8780879974365 milliseconds
+2026-05-11 13:37:48,322 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:50,236 - INFO - Our Algorithm with an approximate solution done in: 1914.1221046447754 milliseconds
+2026-05-11 13:37:50,236 - INFO - frb40-19-5.mis: Vertex Cover Size 730
+2026-05-11 13:37:50,236 - INFO - Parsing the Input File started
+2026-05-11 13:37:50,586 - INFO - Parsing the Input File done in: 350.1603603363037 milliseconds
+2026-05-11 13:37:50,586 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:53,547 - INFO - Our Algorithm with an approximate solution done in: 2961.0328674316406 milliseconds
+2026-05-11 13:37:53,547 - INFO - frb45-21-1.mis: Vertex Cover Size 912
+2026-05-11 13:37:53,556 - INFO - Parsing the Input File started
+2026-05-11 13:37:53,879 - INFO - Parsing the Input File done in: 323.17042350769043 milliseconds
+2026-05-11 13:37:53,879 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:56,379 - INFO - Our Algorithm with an approximate solution done in: 2499.3388652801514 milliseconds
+2026-05-11 13:37:56,379 - INFO - frb45-21-2.mis: Vertex Cover Size 911
+2026-05-11 13:37:56,400 - INFO - Parsing the Input File started
+2026-05-11 13:37:56,793 - INFO - Parsing the Input File done in: 393.5401439666748 milliseconds
+2026-05-11 13:37:56,793 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:37:59,507 - INFO - Our Algorithm with an approximate solution done in: 2713.7234210968018 milliseconds
+2026-05-11 13:37:59,507 - INFO - frb45-21-3.mis: Vertex Cover Size 912
+2026-05-11 13:37:59,525 - INFO - Parsing the Input File started
+2026-05-11 13:37:59,924 - INFO - Parsing the Input File done in: 398.6172676086426 milliseconds
+2026-05-11 13:37:59,924 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:02,354 - INFO - Our Algorithm with an approximate solution done in: 2430.878162384033 milliseconds
+2026-05-11 13:38:02,354 - INFO - frb45-21-4.mis: Vertex Cover Size 912
+2026-05-11 13:38:02,370 - INFO - Parsing the Input File started
+2026-05-11 13:38:02,794 - INFO - Parsing the Input File done in: 423.2451915740967 milliseconds
+2026-05-11 13:38:02,794 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:05,184 - INFO - Our Algorithm with an approximate solution done in: 2390.2149200439453 milliseconds
+2026-05-11 13:38:05,184 - INFO - frb45-21-5.mis: Vertex Cover Size 912
+2026-05-11 13:38:05,201 - INFO - Parsing the Input File started
+2026-05-11 13:38:05,751 - INFO - Parsing the Input File done in: 550.0333309173584 milliseconds
+2026-05-11 13:38:05,751 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:09,229 - INFO - Our Algorithm with an approximate solution done in: 3477.6148796081543 milliseconds
+2026-05-11 13:38:09,229 - INFO - frb50-23-1.mis: Vertex Cover Size 1111
+2026-05-11 13:38:09,247 - INFO - Parsing the Input File started
+2026-05-11 13:38:09,862 - INFO - Parsing the Input File done in: 614.9630546569824 milliseconds
+2026-05-11 13:38:09,862 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:13,526 - INFO - Our Algorithm with an approximate solution done in: 3663.975477218628 milliseconds
+2026-05-11 13:38:13,526 - INFO - frb50-23-2.mis: Vertex Cover Size 1113
+2026-05-11 13:38:13,543 - INFO - Parsing the Input File started
+2026-05-11 13:38:14,023 - INFO - Parsing the Input File done in: 480.2522659301758 milliseconds
+2026-05-11 13:38:14,023 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:17,484 - INFO - Our Algorithm with an approximate solution done in: 3460.5016708374023 milliseconds
+2026-05-11 13:38:17,484 - INFO - frb50-23-3.mis: Vertex Cover Size 1117
+2026-05-11 13:38:17,501 - INFO - Parsing the Input File started
+2026-05-11 13:38:18,068 - INFO - Parsing the Input File done in: 565.7079219818115 milliseconds
+2026-05-11 13:38:18,068 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:21,598 - INFO - Our Algorithm with an approximate solution done in: 3530.4527282714844 milliseconds
+2026-05-11 13:38:21,598 - INFO - frb50-23-4.mis: Vertex Cover Size 1113
+2026-05-11 13:38:21,617 - INFO - Parsing the Input File started
+2026-05-11 13:38:22,047 - INFO - Parsing the Input File done in: 430.4347038269043 milliseconds
+2026-05-11 13:38:22,047 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:25,749 - INFO - Our Algorithm with an approximate solution done in: 3701.223373413086 milliseconds
+2026-05-11 13:38:25,751 - INFO - frb50-23-5.mis: Vertex Cover Size 1112
+2026-05-11 13:38:25,768 - INFO - Parsing the Input File started
+2026-05-11 13:38:26,346 - INFO - Parsing the Input File done in: 578.8581371307373 milliseconds
+2026-05-11 13:38:26,346 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:30,796 - INFO - Our Algorithm with an approximate solution done in: 4449.191570281982 milliseconds
+2026-05-11 13:38:30,796 - INFO - frb53-24-1.mis: Vertex Cover Size 1235
+2026-05-11 13:38:30,818 - INFO - Parsing the Input File started
+2026-05-11 13:38:31,343 - INFO - Parsing the Input File done in: 525.0203609466553 milliseconds
+2026-05-11 13:38:31,343 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:35,582 - INFO - Our Algorithm with an approximate solution done in: 4239.41707611084 milliseconds
+2026-05-11 13:38:35,582 - INFO - frb53-24-2.mis: Vertex Cover Size 1234
+2026-05-11 13:38:35,600 - INFO - Parsing the Input File started
+2026-05-11 13:38:36,214 - INFO - Parsing the Input File done in: 613.4076118469238 milliseconds
+2026-05-11 13:38:36,214 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:41,276 - INFO - Our Algorithm with an approximate solution done in: 5061.895132064819 milliseconds
+2026-05-11 13:38:41,276 - INFO - frb53-24-3.mis: Vertex Cover Size 1235
+2026-05-11 13:38:41,293 - INFO - Parsing the Input File started
+2026-05-11 13:38:41,894 - INFO - Parsing the Input File done in: 601.2954711914062 milliseconds
+2026-05-11 13:38:41,895 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:46,536 - INFO - Our Algorithm with an approximate solution done in: 4640.650272369385 milliseconds
+2026-05-11 13:38:46,536 - INFO - frb53-24-4.mis: Vertex Cover Size 1232
+2026-05-11 13:38:46,553 - INFO - Parsing the Input File started
+2026-05-11 13:38:47,169 - INFO - Parsing the Input File done in: 616.0509586334229 milliseconds
+2026-05-11 13:38:47,169 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:51,479 - INFO - Our Algorithm with an approximate solution done in: 4310.631036758423 milliseconds
+2026-05-11 13:38:51,479 - INFO - frb53-24-5.mis: Vertex Cover Size 1235
+2026-05-11 13:38:51,497 - INFO - Parsing the Input File started
+2026-05-11 13:38:52,212 - INFO - Parsing the Input File done in: 715.2812480926514 milliseconds
+2026-05-11 13:38:52,212 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:38:57,373 - INFO - Our Algorithm with an approximate solution done in: 5160.799264907837 milliseconds
+2026-05-11 13:38:57,373 - INFO - frb56-25-1.mis: Vertex Cover Size 1358
+2026-05-11 13:38:57,408 - INFO - Parsing the Input File started
+2026-05-11 13:38:58,173 - INFO - Parsing the Input File done in: 764.9435997009277 milliseconds
+2026-05-11 13:38:58,173 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:03,306 - INFO - Our Algorithm with an approximate solution done in: 5133.542060852051 milliseconds
+2026-05-11 13:39:03,306 - INFO - frb56-25-2.mis: Vertex Cover Size 1358
+2026-05-11 13:39:03,334 - INFO - Parsing the Input File started
+2026-05-11 13:39:04,066 - INFO - Parsing the Input File done in: 731.6482067108154 milliseconds
+2026-05-11 13:39:04,066 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:09,032 - INFO - Our Algorithm with an approximate solution done in: 4966.317653656006 milliseconds
+2026-05-11 13:39:09,032 - INFO - frb56-25-3.mis: Vertex Cover Size 1359
+2026-05-11 13:39:09,044 - INFO - Parsing the Input File started
+2026-05-11 13:39:09,826 - INFO - Parsing the Input File done in: 781.5985679626465 milliseconds
+2026-05-11 13:39:09,826 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:12,806 - INFO - Our Algorithm with an approximate solution done in: 2979.7234535217285 milliseconds
+2026-05-11 13:39:12,806 - INFO - frb56-25-4.mis: Vertex Cover Size 1358
+2026-05-11 13:39:12,824 - INFO - Parsing the Input File started
+2026-05-11 13:39:13,138 - INFO - Parsing the Input File done in: 314.4817352294922 milliseconds
+2026-05-11 13:39:13,138 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:15,703 - INFO - Our Algorithm with an approximate solution done in: 2565.457582473755 milliseconds
+2026-05-11 13:39:15,703 - INFO - frb56-25-5.mis: Vertex Cover Size 1361
+2026-05-11 13:39:15,703 - INFO - Parsing the Input File started
+2026-05-11 13:39:16,068 - INFO - Parsing the Input File done in: 364.9153709411621 milliseconds
+2026-05-11 13:39:16,068 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:19,058 - INFO - Our Algorithm with an approximate solution done in: 2989.499807357788 milliseconds
+2026-05-11 13:39:19,058 - INFO - frb59-26-1.mis: Vertex Cover Size 1492
+2026-05-11 13:39:19,067 - INFO - Parsing the Input File started
+2026-05-11 13:39:19,431 - INFO - Parsing the Input File done in: 364.7897243499756 milliseconds
+2026-05-11 13:39:19,431 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:22,411 - INFO - Our Algorithm with an approximate solution done in: 2979.5329570770264 milliseconds
+2026-05-11 13:39:22,411 - INFO - frb59-26-2.mis: Vertex Cover Size 1492
+2026-05-11 13:39:22,428 - INFO - Parsing the Input File started
+2026-05-11 13:39:22,783 - INFO - Parsing the Input File done in: 354.60400581359863 milliseconds
+2026-05-11 13:39:22,783 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:25,858 - INFO - Our Algorithm with an approximate solution done in: 3075.5794048309326 milliseconds
+2026-05-11 13:39:25,858 - INFO - frb59-26-3.mis: Vertex Cover Size 1494
+2026-05-11 13:39:25,878 - INFO - Parsing the Input File started
+2026-05-11 13:39:26,223 - INFO - Parsing the Input File done in: 345.4113006591797 milliseconds
+2026-05-11 13:39:26,223 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:29,170 - INFO - Our Algorithm with an approximate solution done in: 2947.0317363739014 milliseconds
+2026-05-11 13:39:29,170 - INFO - frb59-26-4.mis: Vertex Cover Size 1493
+2026-05-11 13:39:29,188 - INFO - Parsing the Input File started
+2026-05-11 13:39:29,552 - INFO - Parsing the Input File done in: 364.8102283477783 milliseconds
+2026-05-11 13:39:29,552 - INFO - Our Algorithm with an approximate solution started
+2026-05-11 13:39:32,576 - INFO - Our Algorithm with an approximate solution done in: 3023.984670639038 milliseconds
+2026-05-11 13:39:32,578 - INFO - frb59-26-5.mis: Vertex Cover Size 1491
