@@ -349,11 +349,11 @@ options:
 </tr>
 <tr>
 <td>Hvala package</td>
-<td>v0.1.1 (this repository)</td>
+<td>v0.1.2 (this repository; stable release tag corresponding to the accepted manuscript)</td>
 </tr>
 </tbody>
 </table>
-<p>Exact dependency floors are recorded in <code>setup.py</code> under <code>INSTALL_REQUIRES</code>. A <code>pip install hvala==0.1.1</code> reproduces the same package version used in the study. The pinned floors <code>numpy&gt;=2.2.1</code>, <code>scipy&gt;=1.15.0</code>, <code>networkx[default]&gt;=3.4.2</code>, together with <code>python_requires=&quot;&gt;=3.12&quot;</code>, serve as the package lockfile for the study.</p>
+<p>Exact dependency floors are recorded in <code>setup.py</code> under <code>INSTALL_REQUIRES</code>. A <code>pip install hvala==0.1.2</code> reproduces the same package version used in the study, and the matching <code>v0.1.2</code> git tag on this repository pins both the algorithm code and the experimental harness (<code>ablation.py</code>, <code>aggregate.py</code>, <code>make_tables.py</code>) to the exact state used to produce the published results. The pinned floors <code>numpy&gt;=2.2.1</code>, <code>scipy&gt;=1.15.0</code>, <code>networkx[default]&gt;=3.4.2</code>, together with <code>python_requires=&quot;&gt;=3.12&quot;</code>, serve as the package lockfile for the study.</p>
 <h2>Exact Benchmark Commands</h2>
 <p>The two NPBench sub-experiments were each launched with a single <code>batch_idemo</code> invocation from the <code>experiment/npbench/</code> directory. The <code>-c</code> flag turns on per-instance cover-size counting; the <code>-l</code> flag turns on file logging into a <code>.txt</code> log file named after the input directory.</p>
 <p>FRB sub-experiment (41 instances):</p>

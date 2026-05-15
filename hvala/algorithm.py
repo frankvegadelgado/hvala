@@ -23,7 +23,7 @@ def maximal_matching_vertex_cover(G):
 # ============================================================
 # 2. Bucket-queue max-degree greedy
 #    (linear-time O(n + m); worst-case approximation ratio
-#    Theta(log Delta) by Johnson's classical bound, NOT 2-approx)
+#    Theta(log Delta) by Johnson's classical bound)
 # ============================================================
 
 def bucket_degree_greedy(adj):
@@ -33,13 +33,7 @@ def bucket_degree_greedy(adj):
     Runs in O(n + m) time using a bucket queue indexed by vertex degree.
     NOTE: the worst-case approximation ratio of the max-degree greedy
     heuristic is Theta(log Delta) (Johnson's classical bound), where
-    Delta is the maximum degree of the input graph. It is NOT a
-    2-approximation in the worst case; in particular, on graphs where
-    Delta grows with n, the ratio can grow as Omega(log Delta). The
-    surrounding Hvala ensemble (see find_vertex_cover below) is what
-    yields the uniform <= 2 guarantee, by combining this candidate
-    with the matching-based candidate c1 whose worst-case ratio is 2
-    and taking the minimum.
+    Delta is the maximum degree of the input graph.
     """
     deg = {v: len(adj[v]) for v in adj}
     maxd = max(deg.values(), default=0)

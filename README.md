@@ -283,9 +283,9 @@ hvala/
 | NetworkX | 3.4.2 |
 | NumPy | ≥ 2.2.1 (pinned in `setup.py`) |
 | SciPy | ≥ 1.15.0 (pinned in `setup.py`) |
-| Hvala package | v0.1.1 (this repository) |
+| Hvala package | v0.1.2 (this repository; stable release tag corresponding to the accepted manuscript) |
 
-Exact dependency floors are recorded in `setup.py` under `INSTALL_REQUIRES`. A `pip install hvala==0.1.1` reproduces the same package version used in the study. The pinned floors `numpy>=2.2.1`, `scipy>=1.15.0`, `networkx[default]>=3.4.2`, together with `python_requires=">=3.12"`, serve as the package lockfile for the study.
+Exact dependency floors are recorded in `setup.py` under `INSTALL_REQUIRES`. A `pip install hvala==0.1.2` reproduces the same package version used in the study, and the matching `v0.1.2` git tag on this repository pins both the algorithm code and the experimental harness (`ablation.py`, `aggregate.py`, `make_tables.py`) to the exact state used to produce the published results. The pinned floors `numpy>=2.2.1`, `scipy>=1.15.0`, `networkx[default]>=3.4.2`, together with `python_requires=">=3.12"`, serve as the package lockfile for the study.
 
 ## Exact Benchmark Commands
 
